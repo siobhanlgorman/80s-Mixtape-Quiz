@@ -1,51 +1,5 @@
 console.log("hello");
 
-// starts the game
-function runGame() {
-
-}
-
-// checks what answer the user has chosen
-function checkAnswer() {
-
-}
-
-// checks if user's answer matches correct answer
-function matchCorrectAnswer() {
-
-}
-
-
-// changes colour of answerbox after user answer is checked onlick
-function colourAnswerBox() {
-
-}
-
-// increments the correct answer score after each question
-function incrementScore() {
-
-}
-
-// increments the question number when new question is generated
-
-function incrementQuestionNumber() {
-
-}
-
-// displays new question until max 5
-function displayQuestion() {
-    
-}
-
-// displays four answers for each question
-function displayAnswers() {
-
-}
-
-// displays message at end of game
-function endGameMessage () {
-
-}
 
 let questions = [{
     question: "Survivor had a hit with Eye of the Tiger. Which film did it feature in",
@@ -355,4 +309,91 @@ let questions = [{
     },
    
 ]
+
+
+const question = document.getElementById("question");
+const answers = Array.from(document.getElementsByClassName("answer-text"));
+
+
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = []
+
+const correct_bonus = 10;
+const max_questions = 5;
+
+    
+
+
+// starts the game
+function runGame() {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    console.log(availableQuestions);
+    displayQuestion();
+
+}
+
+runGame();
+
+// displays new question until max 5
+function displayQuestion() {
+    questionCounter++;
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length)
+    displayQuestion = availableQuestions[questionIndex];
+    question.innerText = displayQuestion.question;
+
+    answers.forEach(function(answer) {
+        const number = answer.dataset["data-number"];
+        answer.innerText = currentQuestion["answer" + number];
+    });
+    
+};
+
+// displays four answers for each question
+function displayAnswers() {
+
+}
+
+
+
+// checks what answer the user has chosen
+function checkAnswer() {
+
+}
+
+// checks if user's answer matches correct answer
+function matchCorrectAnswer() {
+
+}
+
+
+// changes colour of answerbox after user answer is checked onlick
+function colourAnswerBox() {
+
+}
+
+// increments the correct answer score after each question
+function incrementScore() {
+
+}
+
+// increments the question number when new question is generated
+
+function incrementQuestionNumber() {
+
+}
+
+
+// displays message at end of game
+function endGameMessage () {
+
+}
+
+
+
+
 
