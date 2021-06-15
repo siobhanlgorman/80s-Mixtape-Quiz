@@ -115,7 +115,7 @@ main {
     padding: 0.5rem;
 }
 
-/* question container styling */
+/* style question container  */
 .question-container{
     width: 80%;
     height: 8rem;
@@ -124,4 +124,12 @@ main {
     justify-content: center;
     border: 2px solid darkgray;
     border-radius: 4px;
+}
+
+
+/* style question text */
+.question-container h1{
+    font-size: 1rem;
+    text-align: center;
+    padding: 3px;
 }
