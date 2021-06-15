@@ -97,3 +97,31 @@ main {
     border-radius: 4px;
 }
 
+
+/* counters container at top of quiz */
+.counter-container {
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* counter container text */
+.counter-container p {
+    font-size: 1rem;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+/* question container styling */
+.question-container{
+    width: 80%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+}
