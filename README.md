@@ -27,7 +27,7 @@ business goals what are we aiiming to achieve and for whom
   * 
 
 ### Scope
-minimal viable features which can be added to in the future. A simple online quiz with randomly generated multiple choice questions, accumulating score up to 10. A message for the final score.
+minimal viable features which can be added to in the future. Simple clear Javascipt functions with the single responsibility approach ie one function one job. A simple online quiz with randomly generated multiple choice questions, accumulating score up to 10. A message for the final score.
 what features based on strategy do you want to include 
   * functioning quiz with sufficient questions for initial release
   * responsive design
@@ -54,6 +54,9 @@ Font colour charcoal #36454F
 Background image of cassettes (see credits) to fit the title theme of an eighties mixtape.
 ## Features
 ### Existing Features
+
+Home page
+Play button to navigate to quiz page
 
 ### Future Features
 ### Languages Used
