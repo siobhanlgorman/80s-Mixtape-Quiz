@@ -111,10 +111,11 @@ main {
 
 /* counter container text */
 .counter-container p {
-    font-size: 1rem;
+    /* font-size: 0.5rem; */
     border: 2px solid #36454F;
     border-radius: 4px;
     padding: 0.5rem;
+    width: 50%;
 }
 
 /* style question container  */
@@ -175,7 +176,7 @@ main {
     }
 
     .counter-container p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .question-container {
