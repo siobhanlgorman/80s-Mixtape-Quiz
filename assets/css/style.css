@@ -16,6 +16,7 @@ html, body {
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
+    color: #36454F
 
 }
 
@@ -89,7 +90,7 @@ main {
 .quiz-container {
     width: 40rem;
     height: 30rem;
-    background-color: lightgray;
+    background-color: #73D9FF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,4 +133,30 @@ main {
     font-size: 1rem;
     text-align: center;
     padding: 3px;
+}
+
+/* answers container */
+.answers-container {
+    width: 80%;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* four answer boxes */
+    .answer-box {
+    width: 45%;
+    height: 3rem;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+    /* overflow: hidden; */
+}
+
+/* answer box text styling */
+.answer-box p {
+    
+    cursor: pointer;
+    font-weight: 500;
 }
