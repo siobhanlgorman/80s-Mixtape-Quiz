@@ -40,6 +40,41 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
+
+
+#home {
+
+    width: 80%;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    
+}
+
+
+/* style text link to quiz page */
+#home-btn {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    width: 30rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style play button icon */
+.fa-play {
+    margin-left: 1rem;
+    font-size: 5rem;
+}
 
