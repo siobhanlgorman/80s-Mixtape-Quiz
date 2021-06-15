@@ -114,7 +114,7 @@ main {
     /* font-size: 0.5rem; */
     border: 2px solid #36454F;
     border-radius: 4px;
-    padding: 0.5rem;
+    padding: 0.25rem;
     width: 50%;
 }
 
@@ -134,7 +134,7 @@ main {
 .question-container h1 {
     font-size: 1rem;
     text-align: center;
-    padding: 3px;
+    padding: 0.5rem;
 }
 
 /* answers container */
@@ -152,6 +152,7 @@ main {
     width: 45%;
     height: 3rem;
     border: 2px solid #36454F;
+    padding-left: 0.5rem;
     border-radius: 4px;
     /* overflow: hidden; */
 }
@@ -215,3 +216,5 @@ main {
     .question-container h1 {
         font-size: 1rem;
     }
+
+}
