@@ -7,9 +7,10 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    
+
 }
 
 
@@ -17,7 +18,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
     color: #36454F
-
 }
 
 
@@ -28,6 +28,7 @@ h1 {
 p {
     font-size: 1rem;
 }
+
 /* page background styling */
 main {
     width: 100%;
@@ -37,7 +38,7 @@ main {
     justify-content: center;
     align-items: center;
     background: url('../images/cassette-5986249_1280.png');
-    background-color : purple;
+    background-color: purple;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,8 +52,8 @@ main {
     width: 40rem;
     height: 30rem;
     /* background-color: lightgray; */
-    
-    
+
+
     border-radius: 4px;
 
     /* width: 80%;
@@ -63,7 +64,7 @@ main {
     align-items: center;
     justify-content: space-around;
     background-color: #E513FC;
-    
+
 }
 
 
@@ -117,7 +118,7 @@ main {
 }
 
 /* style question container  */
-.question-container{
+.question-container {
     width: 80%;
     height: 8rem;
     display: flex;
@@ -129,7 +130,7 @@ main {
 
 
 /* style question text */
-.question-container h1{
+.question-container h1 {
     font-size: 1rem;
     text-align: center;
     padding: 3px;
@@ -146,7 +147,7 @@ main {
 }
 
 /* four answer boxes */
-    .answer-box {
+.answer-box {
     width: 45%;
     height: 3rem;
     border: 2px solid #36454F;
@@ -156,7 +157,7 @@ main {
 
 /* answer box text styling */
 .answer-box p {
-    
+
     cursor: pointer;
     font-weight: 500;
 }
@@ -167,27 +168,49 @@ main {
 
 /* media queries for smallest mobile phone */
 
-@media(min-width : 300px) and (max-width : 576px){
-    .quiz-container{
+@media(min-width : 300px) and (max-width : 576px) {
+    .quiz-container {
         width: 90%;
         height: 80vh;
-     }
-     .counter-container p{
-        font-size: 1rem;
-     }
+    }
 
-     .question-container{
+    .counter-container p {
+        font-size: 1rem;
+    }
+
+    .question-container {
         height: 6rem;
-     }
-     .question-container h1{
-       font-size: 1rem;
+    }
+
+    .question-container h1 {
+        font-size: 1rem;
     }
 
     .answers-container {
         flex-direction: column;
-        
+
     }
+
     .answer-box {
         width: 100%;
     }
-}   
+}
+
+/* media queries for small tablet */
+@media(min-width : 576px) and (max-width : 768px) {
+    .quiz-container {
+        width: 90%;
+        height: 80vh;
+    }
+
+    .counter-container p {
+        font-size: 1rem;
+    }
+
+    .question-container {
+        height: 8rem;
+    }
+
+    .question-container h1 {
+        font-size: 1rem;
+    }
