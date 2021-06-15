@@ -111,7 +111,7 @@ main {
 /* counter container text */
 .counter-container p {
     font-size: 1rem;
-    border: 2px solid darkgray;
+    border: 2px solid #36454F;
     border-radius: 4px;
     padding: 0.5rem;
 }
@@ -123,7 +123,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid darkgray;
+    border: 2px solid #36454F;
     border-radius: 4px;
 }
 
@@ -149,7 +149,7 @@ main {
     .answer-box {
     width: 45%;
     height: 3rem;
-    border: 2px solid darkgray;
+    border: 2px solid #36454F;
     border-radius: 4px;
     /* overflow: hidden; */
 }
