@@ -1,59 +1,126 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mixtape Quix
+## Introduction
+The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties and nineties. Users answer mulitple choice questions and are rated on their score out of ten.
+The project goal is to provide a fun interactive music quiz
 
-Welcome siobhanlgorman,
+## User Experience Design
+### Target Audience
+The quiz targets people of all ages who enjoy quizzes and are interested in music of the eighties and nineties
+### User Stories
+As a user I would like to play a fun quiz
+want to easily see what the quiz topic is
+answer questions
+answer different questions each time I play
+improve my score each time I play
+be entertained and a little challenged
+As a user I would like to see how knowledgeable I am on the topic of music in the eighties and nineties
+As a user I want to be able to navigate easily around the application
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+As creator??
+want to create fun quiz, have enough questions to be interesting, for user to enjoy, easy to add questions
 
-## Gitpod Reminders
+### Strategy 
+The purpose of this online quiz is to entertain people who like 80s and 90s music. 
+business goals what are we aiiming to achieve and for whom
+#### Goals
+  * to provide an entertaining interactive application
+  * 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Scope
+minimal viable features which can be added to in the future. A simple online quiz with randomly generated multiple choice questions, accumulating score up to 10. A message for the final score.
+what features based on strategy do you want to include 
+  * functioning quiz with sufficient questions for initial release
+  * responsive design
+  * clear and easy to navigate
+  * visually attractive
+Future features
 
-`python3 -m http.server`
+### Structure
+how is the information structured how user reaches content. 
+header - title
+Game play area with buttons to start/stop play
+display question with three choices for answer. User can choose one
+submit answer button?
 
-A blue button should appear to click: _Make Public_,
+display of correct/incorrect answers
+Sections: welcome screen, start play/first question screen, completed game screen with total score and message. User flow welcome --> play game ---> repeat until 10 questions/end game --> congratulations/message
+### Skeleton
+how should the imfo be implemented and how will user navigate through infomration and features priority and positioning
+wireframes
+### Surface
+what will the product look like: colours, typography, images, design elements
+Colours - 80s colours - purple, turquoise Used values from [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel)
+Font colour charcoal #36454F
+Background image of cassettes (see credits) to fit the title theme of an eighties mixtape.
+## Features
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+### Future Features
+### Languages Used
+HTML (Hypertext Markup Language) was used to design the basic website and CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
+Javascript
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+### Technologies Used
 
-Another blue button should appear to click: _Open Browser_.
+[Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Google Fonts](https://fonts.google.com) was used for the fonts: Poppins and Lora.
 
-To log into the Heroku toolbelt CLI:
+[Fontawesome](https://fontawesome.com) was used for the social media icons, map link and the arrow back to top.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Google maps](https://www.google.com/maps) was used to provide a map link.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+[Picresize](https://picresize.com) was used to resize photos
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Testing
+### Validator Testing
+* [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found
+* [CSS Validator](https://validator.w3.org/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
+* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Responsiveness
+The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The website was tested on numerous sized screens including Iphones 8 and X, Moto G8 plus, 15" laptop, 24" screen and Ipad and was found to respond as expected to all sizes.
+Chrome development tools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## User Stories Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Each user story was tested as follows:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Manual Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+All links on all pages were checked
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Unfixed Bugs
+## Deployment
+The site was deployed to GitHub pages. The steps taken to deploy are as follows:
+1. Log in to [Github](https://github.com/)
+2. Navigate to [siobhanlgorman/sourdoughbakes](https://github.com/siobhanlgorman/Sourdough-Bakes) in the list of repositories
+3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/Sourdough-Bakes/settings) tab
+4. In Settings scroll down to [GitHub pages](https://github.com/siobhanlgorman/Sourdough-Bakes/settings/pages) which opens in a new page.
+5. From the source section drop-down menu, select the Master Branch
+6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The link to the live website is here:
+[Sourdough Bakes](https://siobhanlgorman.github.io//)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Credits
+### Content
+Quiz questions adapted from: 
+* [Zoo](https://www.zoo.com/quiz/can-you-guess-80s-songs-their-opening-lyrics-quiz) 
+* [Cambridge News](https://www.cambridge-news.co.uk/news/uk-world-news/80s-music-quiz-questions-test-18213733)
+* [The Express](https://www.express.co.uk/entertainment/music/1290366/80s-music-quiz-questions-and-answers)
+* [Smooth Radio](https://www.smoothradio.com/quizzes/1980s-music-trivia-quiz/)
 
----
 
-Happy coding!
+The following tutorials were useful as a guide
+* [How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+* [James Q Quick - Build A Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ)
+### Media
+
+From [Pixabay](https://pixabay.com/):
+* [Cassettes image](cassette-5986249_1280.jpg) Image by <a href="https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Gordon Johnson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Pixabay</a>
+* [cassette icon](https://icons8.com/icons/set/cassette)
