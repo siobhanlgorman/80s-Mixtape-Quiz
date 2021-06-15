@@ -160,3 +160,34 @@ main {
     cursor: pointer;
     font-weight: 500;
 }
+
+
+
+
+
+/* media queries for smallest mobile phone */
+
+@media(min-width : 300px) and (max-width : 576px){
+    .quiz-container{
+        width: 90%;
+        height: 80vh;
+     }
+     .counter-container p{
+        font-size: 1rem;
+     }
+
+     .question-container{
+        height: 6rem;
+     }
+     .question-container h1{
+       font-size: 1rem;
+    }
+
+    .answers-container {
+        flex-direction: column;
+        
+    }
+    .answer-box {
+        width: 100%;
+    }
+}   
