@@ -312,8 +312,11 @@ let questions = [{
 
 
 const question = document.getElementById("question");
-const answers = Array.from(document.getElementsByClassName("answer-text"));
-
+// const answers = Array.from(document.getElementsByClassName("answer-text"));
+const choice1 = document.getElementById("A");
+const choice2 = document.getElementById("B");
+const choice3 = document.getElementById("C");
+const choice4 = document.getElementById("D");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -345,11 +348,17 @@ function displayQuestion() {
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     displayQuestion = availableQuestions[questionIndex];
     question.innerText = displayQuestion.question;
+    console.log("hello");
+    choice1.innerText = displayQuestion.choice1;
+   
 
-    answers.forEach(function(answer) {
-        const number = answer.dataset["data-number"];
-        answer.innerText = currentQuestion["answer" + number];
-    });
+
+
+
+    // answers.forEach(function(answer) {
+    //     const number = answer.dataset["data-number"];
+    //     answer.innerText = currentQuestion["answer" + number];
+    // });
     
 };
 
