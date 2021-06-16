@@ -312,12 +312,13 @@ let questions = [{
 
 
 const question = document.getElementById("question");
-// const answers = Array.from(document.getElementsByClassName("answer-text"));
+
 const choice1 = document.getElementById("A");
 const choice2 = document.getElementById("B");
 const choice3 = document.getElementById("C");
 const choice4 = document.getElementById("D");
 
+// console.log(choice1)
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
@@ -342,31 +343,24 @@ function runGame() {
 
 runGame();
 
-// displays new question until max 5
+// displays new question 
 function displayQuestion() {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     displayQuestion = availableQuestions[questionIndex];
     question.innerText = displayQuestion.question;
-    console.log("hello");
+    
+// displays answer choices
     choice1.innerText = displayQuestion.choice1;
+    choice2.innerText = displayQuestion.choice2;
+    choice3.innerText = displayQuestion.choice3;
+    choice4.innerText = displayQuestion.choice4;
    
+// until max 5
 
-
-
-
-    // answers.forEach(function(answer) {
-    //     const number = answer.dataset["data-number"];
-    //     answer.innerText = currentQuestion["answer" + number];
-    // });
+   
     
 };
-
-// displays four answers for each question
-function displayAnswers() {
-
-}
-
 
 
 // checks what answer the user has chosen
