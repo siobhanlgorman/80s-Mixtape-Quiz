@@ -19,8 +19,9 @@ console.log(choice1)
 // const correct_bonus = 10;
 // const max_questions = 5;
 
-    let userAnswer = document.getElementsByClassName('answer-text')
-    console.log(userAnswer);
+    // let userAnswer = document.getElementsByClassName('answer-text')
+    // console.log(userAnswer);
+    // let correctAnswer = 
 
 
 // starts the game -- function adapted from James Q Quick tutorial
@@ -56,7 +57,15 @@ function displayQuestion() {
 
 // checks what answer the user has chosen
 function checkAnswer() {
-    console.log(userAnswer);
+    function myFunction (event) {
+    console.log('You clicked an answer');
+    // console.log(this.id);
+
+    let userAnswer = document.getElementsByClassName('answer-text'); userAnswer.addEventListener('click', myFunction);
+    // console.log(userAnswer)
+    }
+
+    
 
 
 }
