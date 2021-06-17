@@ -39,24 +39,21 @@ main {
     align-items: center;
     background: url('../images/cassette-5986249_1280.png');
     background-color: purple;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, center, center;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+
 
 }
 
-/* #home {
-    background-color: #E513FC;
-
-} */
 
 #home {
 
     width: 40rem;
     height: 30rem;
     border-radius: 4px;
-    /* width: 80%;
-    height: 28rem; */
+    width: 80%;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -186,6 +183,11 @@ main {
         height: 80vh;
     }
 
+    #home p {
+        padding: 2rem;
+    }
+    
+
     .counter-container p {
         font-size: 0.8rem;
     }
@@ -216,6 +218,8 @@ main {
         width: 90%;
         height: 80vh;
     }
+
+    
 
     .counter-container p {
         font-size: 1rem;

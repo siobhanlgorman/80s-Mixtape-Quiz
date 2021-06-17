@@ -1,4 +1,5 @@
 
+
 const question = document.getElementById("question");
 
 const choice1 = document.getElementById("A");
@@ -46,7 +47,7 @@ function displayQuestion() {
     choice3.innerText = displayQuestion.choice3;
     choice4.innerText = displayQuestion.choice4;
    
-// until max 5? 10? 8?
+// until max 6
 
    
 };
