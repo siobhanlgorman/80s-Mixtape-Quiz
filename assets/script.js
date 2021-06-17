@@ -1,4 +1,4 @@
-console.log("hello");
+
 
 
 let questions = [{
@@ -318,12 +318,14 @@ const choice2 = document.getElementById("B");
 const choice3 = document.getElementById("C");
 const choice4 = document.getElementById("D");
 
-// console.log(choice1)
-let currentQuestion = {};
-let acceptingAnswers = true;
-let score = 0;
-let questionCounter = 0;
-let availableQuestions = []
+console.log(choice1)
+
+
+// let currentQuestion = {};
+// let acceptingAnswers = true;
+// let score = 0;
+// let questionCounter = 0;
+// let availableQuestions = []
 
 const correct_bonus = 10;
 const max_questions = 5;
@@ -331,7 +333,7 @@ const max_questions = 5;
     
 
 
-// starts the game
+// starts the game -- function adapted from James Q Quick tutorial
 function runGame() {
     questionCounter = 0;
     score = 0;
