@@ -327,8 +327,8 @@ console.log(choice1)
 // let questionCounter = 0;
 // let availableQuestions = []
 
-const correct_bonus = 10;
-const max_questions = 5;
+// const correct_bonus = 10;
+// const max_questions = 5;
 
     
 
@@ -338,14 +338,14 @@ function runGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
+    // console.log(availableQuestions);
     displayQuestion();
 
 }
 
 runGame();
 
-// displays new question 
+// displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
@@ -360,7 +360,7 @@ function displayQuestion() {
    
 // until max 5
 
-   
+  
     
 };
 
