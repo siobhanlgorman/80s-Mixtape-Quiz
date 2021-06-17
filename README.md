@@ -34,7 +34,7 @@ what features based on strategy do you want to include
   * clear and easy to navigate
   * visually attractive
 Future features
-
+Tried out some ideas for the structure on two test repositories while watching some tutorials and then used parts of these for the project repository
 ### Structure
 how is the information structured how user reaches content. 
 header - title
