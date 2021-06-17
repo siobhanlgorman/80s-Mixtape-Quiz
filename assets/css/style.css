@@ -37,11 +37,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('../images/cassette-5986249_1280.png');
+    background: url('../images/cassette-5986249_1280.png') no-repeat center center;
     background-color: purple;
-    background-repeat: no-repeat, center, center;
+    
     background-size: cover;
-    /* background-position: center; */
+    
 
 
 }
