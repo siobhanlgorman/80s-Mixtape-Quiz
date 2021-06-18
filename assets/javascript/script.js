@@ -2,8 +2,8 @@
 
 const question = document.getElementById("question");
 
-const choices = Array.from(document.getElementsByClassName('answer-text'));
-console.log(choices)
+// const choices = Array.from(document.getElementsByClassName('answer-text'));
+// console.log(choices)
 
 const choice1 = document.getElementById("A");
 const choice2 = document.getElementById("B");
@@ -12,14 +12,15 @@ const choice4 = document.getElementById("D");
 
 // console.log(choice1)
 
-
+const questionCounter = document.getElementById('current-question');
+const scoreCounter = document.getElementById('score-counter');
 
 
 // let currentQuestion = {};
-// let acceptingAnswers = true;
-// let score = 0;
-// let questionCounter = 0;
-// let availableQuestions = []
+// let delayacceptingAnswers = true; delay before next question
+// let score = 0; start at 0 link to counter element
+// let questionCounter = 0; question number user is on starts at 0 link to counter element
+// let availableQuestions = [] full copy of question array --> questionarray
 
 // const correct_bonus = 10;
 // const max_questions = 5;
@@ -37,9 +38,9 @@ function runGame() {
     // console.log(availableQuestions);
     displayQuestion();
 
-}
+};
 
-runGame();
+
 
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
@@ -58,7 +59,7 @@ function displayQuestion() {
 
    
 };
-
+runGame();
 
 // checks what answer the user has chosen
 function checkAnswer() {
