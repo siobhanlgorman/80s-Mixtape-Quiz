@@ -95,22 +95,24 @@ choices.forEach(function (choice) {
       console.log(correctAnswer === displayQuestion.answer); //check user selection against correct answer
 
 // apply class to user answer to turn answerbox background colour red or green display tick or cross?
-      let classToApply = 'incorrect'
+      let classToApply = 'incorrect';
       if (correctAnswer === displayQuestion.answer) {
       console.log('hello')
       classToApply = 'correct';
-      console.log('classToApply');
-      console.log('hi');
-      userAnswer.parentElement.classList.add(classToApply);
+      console.log('classToApply')
+      console.log('hi')
+      
+      
 
-      // userAnswer.parentElement.classList.remove(classToApply);
+      userAnswer.parentElement.classList.add(classToApply);
+ 
+      // setTimeout(function(){userAnswer.parentElement.classList.remove(classToApply), displayQuestion(); 3000});
+      // console.log("we've set timeout")
 
         
       };
-
-
+    
       
-      // displayQuestion();
     });
   });
 
