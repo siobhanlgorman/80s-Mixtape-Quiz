@@ -2,12 +2,17 @@
 
 const question = document.getElementById("question");
 
+const choices = Array.from(document.getElementsByClassName('answer-text'));
+console.log(choices)
+
 const choice1 = document.getElementById("A");
 const choice2 = document.getElementById("B");
 const choice3 = document.getElementById("C");
 const choice4 = document.getElementById("D");
 
-console.log(choice1)
+// console.log(choice1)
+
+
 
 
 // let currentQuestion = {};
