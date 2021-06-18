@@ -94,11 +94,13 @@ choices.forEach(function (choice) {
       console.log(displayQuestion.answer);
       console.log(correctAnswer === displayQuestion.answer); //check user selection against correct answer
 
-      const classToApply = 'incorrect';
+
+      let classToApply = 'incorrect';
       if (correctAnswer === displayQuestion.answer) {
-        classToApply = 'correct';
+      classToApply = 'correct';
+      console.log(classToApply);
         
-      }
+      };
 
 
       // if answer is correct turn answerbox green and if incorrect turn redS
