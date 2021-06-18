@@ -81,7 +81,7 @@ function displayQuestion() {
    
 };
 
-// forEach method to check what answer the user has chosen
+// forEach method to check what answer the user has chosen (adapted from James Q Quick tutorial)
 
 choices.forEach(function (choice) {
     choice.addEventListener('click', function (event) {
@@ -90,13 +90,23 @@ choices.forEach(function (choice) {
       const userAnswer = event.target; //variable for the user selection
       console.log(userAnswer);
       const correctAnswer = userAnswer.dataset.number; //variable for the correct answer
-      
-      console.log(userAnswer);
-      console.log(`this is the $correctAnswer`);
+      console.log(correctAnswer);
+      console.log(displayQuestion.answer);
       console.log(correctAnswer === displayQuestion.answer); //check user selection against correct answer
+
+      const classToApply = 'incorrect';
+      if (correctAnswer === displayQuestion.answer) {
+        classToApply = 'correct';
+        
+      }
+
+
+      // if answer is correct turn answerbox green and if incorrect turn redS
       // displayQuestion();
     });
   });
+
+
 
 
 runGame();
