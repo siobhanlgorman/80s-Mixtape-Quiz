@@ -15,19 +15,21 @@ console.log(choices)
 // const score = document.getElementById('score-counter');
 // console.log('hello')
 
-// variable for question number
+// variable for question number user is on starts at 0 link to counter element
 let questionCounter = 0;
-// variable for score
+// variable for score starts at 0
 let score = 0
-// let currentQuestion = {};
+let currentQuestion = {};
 //delay before next question generated
 let delayAcceptingAnswers = true;
-// let score = 0; start at 0 link to counter element
-// let questionCounter = 0; question number user is on starts at 0 link to counter element
-// let availableQuestions = [] full copy of question array --> questionarray
+
+// 
+
+// full copy of question array --> questionarray
+let availableQuestions = []
 
 // const correct_bonus = 10;
-// const max_questions = 5;
+const max_questions = 5;
 
     // let userAnswer = document.getElementsByClassName('answer-text')
     // console.log(userAnswer);
@@ -41,12 +43,13 @@ function runGame() {
     availableQuestions = [...questions];
     console.log(availableQuestions);
     displayQuestion();
-
+    console.log("available questions have been shown")
 };
 
 
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
+    
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     displayQuestion = availableQuestions[questionIndex];
@@ -58,18 +61,19 @@ function displayQuestion() {
     // choice3.innerText = displayQuestion.choice3;
     // choice4.innerText = displayQuestion.choice4;
 
+
     // code adapted from James Q Quick tutorial
     // access answer text content via data attribute
     choices.forEach(function (choice) {
         const number = choice.dataset["number"];
         choice.innerText = displayQuestion["choice" + number];
+        console.log("answer choices have been shown");
       });
 
         
     // remove already used question from array selection
 
     availableQuestions.splice(question.Index, 1);
-
     delayAcceptingAnswers = true;
     
    
@@ -78,15 +82,19 @@ function displayQuestion() {
    
 };
 
+
+
 choices.forEach(function (choice) {
     choice.addEventListener('click', function (event) {
       if (!delayAcceptingAnswers) return;
       delayAcceptingAnswers = false;
       const userAnswer = event.target;
       console.log(userAnswer);
-      const correctAnswer = userAnswer.dataset["number"];
+      const correctAnswer = userAnswer.dataset.number;
       console.log(correctAnswer);
-      displayQuestion();
+      console.log(`The correct answer is $correctAnswer`);
+      console.log(correctAnswer === displayQuestion.answer);
+    //   displayQuestion();
     });
   });
 
