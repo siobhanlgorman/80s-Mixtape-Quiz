@@ -2,20 +2,24 @@
 
 const question = document.getElementById("question");
 
-// const choices = Array.from(document.getElementsByClassName('answer-text'));
-// console.log(choices)
+const choices = Array.from(document.getElementsByClassName('answer-text'));
+console.log(choices)
 
-const choice1 = document.getElementById("A");
-const choice2 = document.getElementById("B");
-const choice3 = document.getElementById("C");
-const choice4 = document.getElementById("D");
+// const choice1 = document.getElementById("A");
+// const choice2 = document.getElementById("B");
+// const choice3 = document.getElementById("C");
+// const choice4 = document.getElementById("D");
 
 // console.log(choice1)
 
-const questionCounter = document.getElementById('current-question');
-const scoreCounter = document.getElementById('score-counter');
+// const questionCounter = document.getElementById('current-question');
+// const score = document.getElementById('score-counter');
+// console.log('hello')
 
-
+// variable for question number
+let questionCounter = 0;
+// variable for score
+let score = 0
 // let currentQuestion = {};
 // let delayacceptingAnswers = true; delay before next question
 // let score = 0; start at 0 link to counter element
@@ -35,7 +39,7 @@ function runGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    // console.log(availableQuestions);
+    console.log(availableQuestions);
     displayQuestion();
 
 };
@@ -50,15 +54,29 @@ function displayQuestion() {
     question.innerText = displayQuestion.question;
     
 // displays answer choices
-    choice1.innerText = displayQuestion.choice1;
-    choice2.innerText = displayQuestion.choice2;
-    choice3.innerText = displayQuestion.choice3;
-    choice4.innerText = displayQuestion.choice4;
+    // choice1.innerText = displayQuestion.choice1;
+    // choice2.innerText = displayQuestion.choice2;
+    // choice3.innerText = displayQuestion.choice3;
+    // choice4.innerText = displayQuestion.choice4;
+
+    choices.forEach(function (choice) {
+        var number = choice.dataset["number"];
+        choice.innerText = displayQuestion["choice" + number];
+      });
+
+
+
+
+    // remove already used question from array selection
+
+    availableQuestions.splice(question.Index, 1);
+    
    
 // until max 6
 
    
 };
+
 runGame();
 
 // checks what answer the user has chosen
