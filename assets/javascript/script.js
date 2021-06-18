@@ -1,5 +1,3 @@
-
-
 const question = document.getElementById("question");
 console.log (question);
 
@@ -80,31 +78,35 @@ function displayQuestion() {
    
 };
 
-choices.forEach(choice => {
-    choice.addEventListener('click', e => {console.log(e.target)})
-})
-
-
-
-
+choices.forEach(function (choice) {
+    choice.addEventListener('click', function (event) {
+      if (!delayAcceptingAnswers) return;
+      delayAcceptingAnswers = false;
+      const userAnswer = event.target;
+      console.log(userAnswer);
+      const correctAnswer = userAnswer.dataset["number"];
+      console.log(correctAnswer);
+      displayQuestion();
+    });
+  });
 
 
 runGame();
 
 // checks what answer the user has chosen
-function checkAnswer() {
-    function myFunction (event) {
-    console.log('You clicked an answer');
-    // console.log(this.id);
+// function checkAnswer() {
+//     function myFunction (event) {
+//     console.log('You clicked an answer');
+    
 
-    let userAnswer = document.getElementsByClassName('answer-text'); userAnswer.addEventListener('click', myFunction);
-    // console.log(userAnswer)
-    }
+//     let userAnswer = document.getElementsByClassName('answer-text'); userAnswer.addEventListener('click', myFunction);
+    
+//     }
 
     
 
 
-}
+// }
 
 // checks if user's answer matches correct answer
 function matchCorrectAnswer() {
