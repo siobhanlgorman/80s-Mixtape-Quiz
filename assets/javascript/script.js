@@ -15,18 +15,17 @@ console.log(choices)
 // const score = document.getElementById('score-counter');
 // console.log('hello')
 
-// variable for question number user is on starts at 0 link to counter element
-let questionCounter = 0;
-// variable for score starts at 0
-let score = 0
+
+let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
+let score = 0 // variable for score starts at 0
 let currentQuestion = {};
-//delay before next question generated
-let delayAcceptingAnswers = true;
 
-// 
+let acceptingAnswers = true; //delay before next question generated
 
-// full copy of question array --> questionarray
-let availableQuestions = []
+ 
+
+
+let availableQuestions = [] // full array of questions
 
 // const correct_bonus = 10;
 const max_questions = 5;
@@ -74,47 +73,43 @@ function displayQuestion() {
     // remove already used question from array selection
 
     availableQuestions.splice(question.Index, 1);
-    delayAcceptingAnswers = true;
+    acceptingAnswers = true;
     
    
-// until max 6
+// until max 5
 
    
 };
 
-
+// forEach method to check what answer the user has chosen
 
 choices.forEach(function (choice) {
     choice.addEventListener('click', function (event) {
-      if (!delayAcceptingAnswers) return;
-      delayAcceptingAnswers = false;
-      const userAnswer = event.target;
+      if (!acceptingAnswers) return; // function ends if not accepting answers
+      acceptingAnswers = false; //
+      const userAnswer = event.target; //variable for the user selection
       console.log(userAnswer);
-      const correctAnswer = userAnswer.dataset.number;
-      console.log(correctAnswer);
-      console.log(`The correct answer is $correctAnswer`);
-      console.log(correctAnswer === displayQuestion.answer);
-    //   displayQuestion();
+      const correctAnswer = userAnswer.dataset.number; //variable for the correct answer
+      
+      console.log(userAnswer);
+      console.log(`this is the $correctAnswer`);
+      console.log(correctAnswer === displayQuestion.answer); //check user selection against correct answer
+      // displayQuestion();
     });
   });
 
 
 runGame();
 
-// checks what answer the user has chosen
+
 // function checkAnswer() {
 //     function myFunction (event) {
 //     console.log('You clicked an answer');
     
 
-//     let userAnswer = document.getElementsByClassName('answer-text'); userAnswer.addEventListener('click', myFunction);
-    
-//     }
-
     
 
 
-// }
 
 // checks if user's answer matches correct answer
 function matchCorrectAnswer() {

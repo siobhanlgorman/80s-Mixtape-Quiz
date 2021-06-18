@@ -123,6 +123,7 @@ The following tutorials were useful as a guide
 * [How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 * [James Q Quick - Build A Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ)
 On how to use datasets (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
+[Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 ### Media
 
 From [Pixabay](https://pixabay.com/):
