@@ -94,11 +94,12 @@ choices.forEach(function (choice) {
       console.log(displayQuestion.answer);
       console.log(correctAnswer === displayQuestion.answer); //check user selection against correct answer
 
-
+// apply class to user answer to turn background colour red or green
       let classToApply = 'incorrect';
       if (correctAnswer === displayQuestion.answer) {
       classToApply = 'correct';
       console.log(classToApply);
+      userAnswer.parentElement.classList.add(classToApply);
         
       };
 
