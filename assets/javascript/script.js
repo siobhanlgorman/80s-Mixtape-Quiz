@@ -1,6 +1,7 @@
 
 
 const question = document.getElementById("question");
+console.log (question);
 
 const choices = Array.from(document.getElementsByClassName('answer-text'));
 console.log(choices)
@@ -21,7 +22,8 @@ let questionCounter = 0;
 // variable for score
 let score = 0
 // let currentQuestion = {};
-// let delayacceptingAnswers = true; delay before next question
+//delay before next question generated
+let delayAcceptingAnswers = true;
 // let score = 0; start at 0 link to counter element
 // let questionCounter = 0; question number user is on starts at 0 link to counter element
 // let availableQuestions = [] full copy of question array --> questionarray
@@ -45,7 +47,6 @@ function runGame() {
 };
 
 
-
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
     questionCounter++;
@@ -59,23 +60,34 @@ function displayQuestion() {
     // choice3.innerText = displayQuestion.choice3;
     // choice4.innerText = displayQuestion.choice4;
 
+    // code adapted from James Q Quick tutorial
+    // access answer text content via data attribute
     choices.forEach(function (choice) {
-        var number = choice.dataset["number"];
+        const number = choice.dataset["number"];
         choice.innerText = displayQuestion["choice" + number];
       });
 
-
-
-
+        
     // remove already used question from array selection
 
     availableQuestions.splice(question.Index, 1);
+
+    delayAcceptingAnswers = true;
     
    
 // until max 6
 
    
 };
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {console.log(e.target)})
+})
+
+
+
+
+
 
 runGame();
 
