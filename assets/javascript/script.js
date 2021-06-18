@@ -1,8 +1,8 @@
 const question = document.getElementById("question");
-console.log (question);
+// console.log (question);
 
 const choices = Array.from(document.getElementsByClassName('answer-text'));
-console.log(choices)
+// console.log(choices)
 
 // const choice1 = document.getElementById("A");
 // const choice2 = document.getElementById("B");
@@ -40,9 +40,9 @@ function runGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
+    // console.log(availableQuestions);
     displayQuestion();
-    console.log("available questions have been shown")
+    // console.log("available questions have been shown")
 };
 
 
@@ -66,7 +66,7 @@ function displayQuestion() {
     choices.forEach(function (choice) {
         const number = choice.dataset["number"];
         choice.innerText = displayQuestion["choice" + number];
-        console.log("answer choices have been shown");
+        // console.log("answer choices have been shown");
       });
 
         
@@ -94,17 +94,22 @@ choices.forEach(function (choice) {
       console.log(displayQuestion.answer);
       console.log(correctAnswer === displayQuestion.answer); //check user selection against correct answer
 
-// apply class to user answer to turn background colour red or green
-      let classToApply = 'incorrect';
+// apply class to user answer to turn answerbox background colour red or green display tick or cross?
+      let classToApply = 'incorrect'
       if (correctAnswer === displayQuestion.answer) {
+      console.log('hello')
       classToApply = 'correct';
-      console.log(classToApply);
+      console.log('classToApply');
+      console.log('hi');
       userAnswer.parentElement.classList.add(classToApply);
+
+      // userAnswer.parentElement.classList.remove(classToApply);
+
         
       };
 
 
-      // if answer is correct turn answerbox green and if incorrect turn redS
+      
       // displayQuestion();
     });
   });
