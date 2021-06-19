@@ -52,13 +52,9 @@ function displayQuestion() {
   availableQuestions.splice(question.Index, 1);
   acceptingAnswers = true;
 
-
-  // until max 5
-
-
 };
 
-// forEach method to check what answer the user has chosen (adapted from James Q Quick tutorial)
+// forEach method to check what answer the user has chosen by click (adapted from James Q Quick tutorial)
 
 choices.forEach(function (choice) {
   choice.addEventListener('click', function (event) {
@@ -101,8 +97,9 @@ choices.forEach(function (choice) {
 });
 
 // // increments the correct answer score after each question
-// function incrementScore() {
-//   scoreContent.innerText = score;
+function incrementScore(num) {
+  score += num;
+  scoreContent.innerText = score;
 
 // }
 
