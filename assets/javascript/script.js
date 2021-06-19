@@ -16,6 +16,7 @@ const max_questions = 6;
 
 // starts the game -- function adapted from James Q Quick tutorial see Readme for full credit
 function runGame() {
+  
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions];
@@ -81,7 +82,6 @@ choices.forEach(function (choice) {
     }
       
     
-
     // set delay of 1.5 seconds before colour removed and new question displays
     setTimeout(function () {
         userAnswer.parentElement.classList.remove(classToApply);
@@ -107,7 +107,10 @@ function incrementScore(num) {
 runGame();
 
 
+//wait for elements to load before game starts
+// document.addEventListener("DOMContentLoaded", function()) {
 
+// }
 
 
 
