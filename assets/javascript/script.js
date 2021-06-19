@@ -96,7 +96,7 @@ choices.forEach(function (choice) {
 //increments the correct answer score after each question
 function incrementScore(num) {
    score += num;
-   scoreContent.innerText = score;
+   scoreContent.innerText = score + '/' + max_questions;
 
 };
 
