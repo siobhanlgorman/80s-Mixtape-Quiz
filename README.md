@@ -124,6 +124,7 @@ The following tutorials were useful as a guide
 * [James Q Quick - Build A Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ)
 On how to use datasets (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+timeout function https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
 ### Media
 
 From [Pixabay](https://pixabay.com/):
