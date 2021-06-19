@@ -1,20 +1,7 @@
 const question = document.getElementById("question");
-// console.log (question);
-
 const choices = Array.from(document.getElementsByClassName('answer-text'));
-// console.log(choices)
-
-// const choice1 = document.getElementById("A");
-// const choice2 = document.getElementById("B");
-// const choice3 = document.getElementById("C");
-// const choice4 = document.getElementById("D");
-
-// console.log(choice1)
-
-// const questionCounter = document.getElementById('current-question');
-// const score = document.getElementById('score-counter');
-// console.log('hello')
-
+const questionCounterContent = document.getElementById('current-question');
+const scoreContent = document.getElementById('score-counter');
 
 let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
 let score = 0 // variable for score starts at 0
@@ -24,50 +11,41 @@ let acceptingAnswers = true; //delay before next question generated
 
 let availableQuestions = [] // full array of questions
 
-// const correct_bonus = 10;
 const max_questions = 5;
 
 // let userAnswer = document.getElementsByClassName('answer-text')
-// console.log(userAnswer);
-// let correctAnswer = 
-
 
 // starts the game -- function adapted from James Q Quick tutorial
 function runGame() {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions];
-  // console.log(availableQuestions);
   displayQuestion();
-  // console.log("available questions have been shown")
 };
-
 
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
 
-     questionCounter++;
-     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-     currentQuestion = availableQuestions[questionIndex];
-     question.innerText = currentQuestion.question;
+  questionCounter++;
+  const questionIndex = Math.floor(Math.random() * availableQuestions.length)
+  currentQuestion = availableQuestions[questionIndex];
+  question.innerText = currentQuestion.question;
 
 
-// code adapted from James Q Quick tutorial
-// access answer text content via data attribute
-choices.forEach(function (choice) {
-  const number = choice.dataset["number"];
-  choice.innerText = currentQuestion["choice" + number];
-  // console.log("answer choices have been shown");
-});
+  // code adapted from James Q Quick tutorial
+  // access answer text content via data attribute
+  choices.forEach(function (choice) {
+    const number = choice.dataset["number"];
+    choice.innerText = currentQuestion["choice" + number];
+
+  });
+
+  // remove already used question from array selection
+  availableQuestions.splice(question.Index, 1);
+  acceptingAnswers = true;
 
 
-// remove already used question from array selection
-
-availableQuestions.splice(question.Index, 1);
-acceptingAnswers = true;
-
-
-// until max 5
+  // until max 5
 
 
 };
@@ -79,71 +57,53 @@ choices.forEach(function (choice) {
     if (!acceptingAnswers) return; // function ends if not accepting answers
     acceptingAnswers = false; //
     const userAnswer = event.target; //variable for the user selection
-    
     const correctAnswer = userAnswer.dataset.number; //variable for the correct answer
-    
-    
-     //check user selection against correct answer
 
 
-
+    //check user selection against correct answer
     // apply class to user answer to turn answerbox background colour red or green display tick or cross?
     let classToApply = 'incorrect';
     if (correctAnswer === currentQuestion.answer) {
-     
       classToApply = 'correct';
-      console.log('classToApply')
-      
       userAnswer.parentElement.classList.add(classToApply);
-     
-    }
-    else {
-          
-        let classToApply = 'incorrect';
-        userAnswer.parentElement.classList.add(classToApply)
+
+    } else {
+
+      let classToApply = 'incorrect';
+      userAnswer.parentElement.classList.add(classToApply)
     }
     setTimeout(function () {
-      userAnswer.parentElement.classList.remove(classToApply);
-      displayQuestion();},
-      3000);
-    
-    console.log("we've set timeout")
+        userAnswer.parentElement.classList.remove(classToApply);
+        displayQuestion();
+      },
+      1500);
 
+   
   });
 });
 
-  runGame();
+runGame();
 
 
-  // function checkAnswer() {
-  //     function myFunction (event) {
-  //     console.log('You clicked an answer');
+
+// changes colour of answerbox after user answer is checked onlick
+function colourAnswerBox() {
+
+}
+
+// increments the correct answer score after each question
+function incrementScore() {
+
+}
+
+// increments the question number when new question is generated
+
+function incrementQuestionNumber() {
+
+}
 
 
-  // checks if user's answer matches correct answer
-  function matchCorrectAnswer() {
+// displays message at end of game
+function endGameMessage() {
 
-  }
-
-
-  // changes colour of answerbox after user answer is checked onlick
-  function colourAnswerBox() {
-
-  }
-
-  // increments the correct answer score after each question
-  function incrementScore() {
-
-  }
-
-  // increments the question number when new question is generated
-
-  function incrementQuestionNumber() {
-
-  }
-
-
-  // displays message at end of game
-  function endGameMessage() {
-
-  }
+}
