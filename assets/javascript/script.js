@@ -22,9 +22,6 @@ let currentQuestion = {};
 
 let acceptingAnswers = true; //delay before next question generated
 
-
-
-
 let availableQuestions = [] // full array of questions
 
 // const correct_bonus = 10;
@@ -51,15 +48,15 @@ function displayQuestion() {
 
      questionCounter++;
      const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-     displayQuestion = availableQuestions[questionIndex];
-     question.innerText = displayQuestion.question;
+     currentQuestion = availableQuestions[questionIndex];
+     question.innerText = currentQuestion.question;
 
 
 // code adapted from James Q Quick tutorial
 // access answer text content via data attribute
 choices.forEach(function (choice) {
   const number = choice.dataset["number"];
-  choice.innerText = displayQuestion["choice" + number];
+  choice.innerText = currentQuestion["choice" + number];
   // console.log("answer choices have been shown");
 });
 
@@ -82,36 +79,38 @@ choices.forEach(function (choice) {
     if (!acceptingAnswers) return; // function ends if not accepting answers
     acceptingAnswers = false; //
     const userAnswer = event.target; //variable for the user selection
-    console.log(userAnswer);
+    
     const correctAnswer = userAnswer.dataset.number; //variable for the correct answer
-    console.log(correctAnswer);
-    console.log(displayQuestion.answer);
-    console.log(correctAnswer === displayQuestion.answer); //check user selection against correct answer
+    
+    
+     //check user selection against correct answer
+
+
 
     // apply class to user answer to turn answerbox background colour red or green display tick or cross?
     let classToApply = 'incorrect';
-    if (correctAnswer === displayQuestion.answer) {
-      console.log('hello')
+    if (correctAnswer === currentQuestion.answer) {
+     
       classToApply = 'correct';
       console.log('classToApply')
-      console.log('hi')
-
+      
       userAnswer.parentElement.classList.add(classToApply);
-
-      setTimeout(function () {
-        userAnswer.parentElement.classList.remove(classToApply);
-        displayQuestion();
-        3000
-      });
-      console.log("we've set timeout")
-
-
-    };
-
+     
+    }
+    else {
+          
+        let classToApply = 'incorrect';
+        userAnswer.parentElement.classList.add(classToApply)
+    }
+    setTimeout(function () {
+      userAnswer.parentElement.classList.remove(classToApply);
+      displayQuestion();},
+      3000);
+    
+    console.log("we've set timeout")
 
   });
 });
-
 
   runGame();
 
