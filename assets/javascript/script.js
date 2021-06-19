@@ -1,7 +1,7 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName('answer-text'));
 const questionCounterContent = document.getElementById('current-question');
-const scoreContent = document.getElementById('score-counter');
+const scoreContent = document.getElementById('current-score');
 
 let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
 let score = 0 // variable for score starts at 0
@@ -60,7 +60,6 @@ choices.forEach(function (choice) {
     const userAnswer = event.target; //variable for the user selection
     const correctAnswer = userAnswer.dataset.number; //variable for the correct answer
 
-
     //check user selection against correct answer
     // apply class to user answer to turn answerbox background colour red or green display tick or cross?
     let classToApply = 'incorrect';
@@ -73,6 +72,17 @@ choices.forEach(function (choice) {
       let classToApply = 'incorrect';
       userAnswer.parentElement.classList.add(classToApply)
     }
+
+    if (classToApply = "correct") {
+      incrementScore(+1)
+      
+    } else {
+      return
+    }
+
+
+
+    // set delay of 1.5 seconds before colour removed and new question displays
     setTimeout(function () {
         userAnswer.parentElement.classList.remove(classToApply);
         displayQuestion();
@@ -83,19 +93,19 @@ choices.forEach(function (choice) {
   });
 });
 
+// increments the correct answer score after each question
+function incrementScore() {
+  scoreContent.innerText = score;
+
+}
+
 runGame();
 
 
 
-// changes colour of answerbox after user answer is checked onlick
-function colourAnswerBox() {
 
-}
 
-// increments the correct answer score after each question
-function incrementScore() {
 
-}
 
 // increments the question number when new question is generated
 
