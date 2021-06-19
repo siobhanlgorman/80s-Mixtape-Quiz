@@ -11,11 +11,10 @@ let acceptingAnswers = true; //delay before next question generated
 
 let availableQuestions = [] // full array of questions
 
-const max_questions = 5;
+const max_questions = 6;
 
-// let userAnswer = document.getElementsByClassName('answer-text')
 
-// starts the game -- function adapted from James Q Quick tutorial
+// starts the game -- function adapted from James Q Quick tutorial see Readme for full credit
 function runGame() {
   questionCounter = 0;
   score = 0;
@@ -26,8 +25,16 @@ function runGame() {
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
 
+  // if question counter has reached max questions function should not run
+  // if (questionCounter == maxQuestions) {
+    
+  // }
+
+  // question counter increments by one after each time code runs
   questionCounter++;
   questionCounterContent.innerText = questionCounter + "/" + max_questions;
+
+  //random question generated from available questions array
   const questionIndex = Math.floor(Math.random() * availableQuestions.length)
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
@@ -73,12 +80,12 @@ choices.forEach(function (choice) {
       userAnswer.parentElement.classList.add(classToApply)
     }
 
-    if (classToApply = "correct") {
-      incrementScore(+1)
+    // if (classToApply = "correct") {
+    //   // incrementScore(+1)
       
-    } else {
-      return
-    }
+    // } else {
+    //   return
+    // }
 
 
 
@@ -93,12 +100,16 @@ choices.forEach(function (choice) {
   });
 });
 
-// increments the correct answer score after each question
-function incrementScore() {
-  scoreContent.innerText = score;
+// // increments the correct answer score after each question
+// function incrementScore() {
+//   scoreContent.innerText = score;
 
-}
+// }
 
+
+
+
+// start the quiz
 runGame();
 
 
