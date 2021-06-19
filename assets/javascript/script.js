@@ -27,6 +27,7 @@ function runGame() {
 function displayQuestion() {
 
   questionCounter++;
+  // questionCounterContent.innerText = 
   const questionIndex = Math.floor(Math.random() * availableQuestions.length)
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
