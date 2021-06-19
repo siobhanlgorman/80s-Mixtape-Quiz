@@ -76,14 +76,11 @@ choices.forEach(function (choice) {
       userAnswer.parentElement.classList.add(classToApply)
     }
 
-    // if (classToApply = "correct") {
-    //   // incrementScore(+1)
+    if (classToApply === "correct") {
+        incrementScore(+1);
+    }
       
-    // } else {
-    //   return
-    // }
-
-
+    
 
     // set delay of 1.5 seconds before colour removed and new question displays
     setTimeout(function () {
@@ -96,12 +93,12 @@ choices.forEach(function (choice) {
   });
 });
 
-// // increments the correct answer score after each question
+//increments the correct answer score after each question
 function incrementScore(num) {
-  score += num;
-  scoreContent.innerText = score;
+   score += num;
+   scoreContent.innerText = score;
 
-// }
+};
 
 
 
