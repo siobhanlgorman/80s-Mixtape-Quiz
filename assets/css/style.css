@@ -183,7 +183,7 @@ main {
 
 .modal-container {
 
-    /* display: none;  */
+    display: none; 
     position: fixed; 
     z-index: 1; 
     left: 0;
@@ -191,27 +191,16 @@ main {
     width: 100%; 
     height: 100%; 
     background-color:rgba(128, 0, 128, 0.2);
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
 } 
     
 .modal-content {
-
-
     
    background-color: pink;
-    /* top: 0;
-    left: 0;
-    background-color: purple;
-
-    .modal
-    width: 40rem;
-    max-width: 100%;
-    height: 30rem;
-    max-height: 100%; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 4px;
+   
+   
 }
 
 /* Modal Close Button */
@@ -231,7 +220,7 @@ main {
 /* media queries for smallest mobile phone */
 
 @media(min-width : 300px) and (max-width : 576px) {
-    .quiz-container, #home, .modal-container {
+    .quiz-container, #home {
         width: 90%;
         height: 80vh;
     }

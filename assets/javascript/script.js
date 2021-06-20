@@ -28,12 +28,7 @@ function runGame() {
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
 
-  // if question counter has reached max questions function should not run
-  if (questionCounter >= max_questions) {endGameMessage()
-console.log('end game');
-  };
-    
-  // }
+  
 
   // question counter increments by one after each time code runs
   questionCounter++;
@@ -93,8 +88,16 @@ choices.forEach(function (choice) {
       },
       1500);
 
+      // if question counter has reached max questions function should not run
+  if (questionCounter == max_questions) {endGameMessage()
+    console.log('end game');
+      };
+        
+
    
   });
+
+  
 });
 
 //increments the correct answer score after each question
