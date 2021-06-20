@@ -199,13 +199,19 @@ main {
     
 .modal-content {
     
-   background-color: pink;
+    background-color: pink;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
  
 }
 
-.modal-content > div {
-    height: 6rem;
-}
+/* .modal-content > div {
+    margin: 5% auto;
+    padding: 5px;
+    
+} */
 
 /* Modal Close Button */
 .close {
@@ -219,6 +225,11 @@ main {
 .close:hover {
     cursor: pointer;
     text-decoration: none;
+}
+
+#stop-quiz a {
+    text-decoration: none;
+    color: #36454F;
 }
 
 /* media queries for smallest mobile phone */

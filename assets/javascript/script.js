@@ -54,7 +54,6 @@ function displayQuestion() {
 };
 
 
-
 // forEach method to check what answer the user has chosen by click (adapted from James Q Quick tutorial)
 choices.forEach(function (choice) {
   choice.addEventListener('click', function (event) {
@@ -111,16 +110,21 @@ function incrementScore(num) {
 
 };
 
+
+
 // Close the modal by clicking on x
 closeButton.onclick = function () {
   modal.style.display = "none";
 }
+
 
 // displays modal at end of game
 function endGameMessage() {
   modal.style.display = "block";
 
 }
+
+
 
 // start the quiz
 runGame();
@@ -137,8 +141,3 @@ runGame();
 
 
 
-// increments the question number when new question is generated
-
-// function incrementQuestionNumber() {
-
-// }
