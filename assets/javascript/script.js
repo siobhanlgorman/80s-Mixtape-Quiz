@@ -107,7 +107,7 @@ function incrementScore(num) {
 runGame();
 
 
-//wait for elements to load before game starts
+//wait for elements to load before game starts??? where??? which elements?? should be in display question
 // document.addEventListener("DOMContentLoaded", function()) {
 
 // }
