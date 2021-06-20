@@ -18,7 +18,7 @@ const max_questions = 6;
 
 // starts the game -- function adapted from James Q Quick tutorial see Readme for full credit
 function runGame() {
-  
+
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions];
@@ -27,7 +27,8 @@ function runGame() {
 
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
-
+  if (questionCounter < max_questions) {
+    
   
 
   // question counter increments by one after each time code runs
@@ -51,11 +52,12 @@ function displayQuestion() {
   // remove already used question from array selection
   availableQuestions.splice(question.Index, 1);
   acceptingAnswers = true;
-
+  }
 };
 
-// forEach method to check what answer the user has chosen by click (adapted from James Q Quick tutorial)
 
+
+// forEach method to check what answer the user has chosen by click (adapted from James Q Quick tutorial)
 choices.forEach(function (choice) {
   choice.addEventListener('click', function (event) {
     if (!acceptingAnswers) return; // function ends if not accepting answers
@@ -64,7 +66,7 @@ choices.forEach(function (choice) {
     const correctAnswer = userAnswer.dataset.number; //variable for the correct answer
 
     //check user selection against correct answer
-    // apply class to user answer to turn answerbox background colour red or green display tick or cross?
+    // apply class to user answer to turn answerbox background colour red or green
     let classToApply = 'incorrect';
     if (correctAnswer === currentQuestion.answer) {
       classToApply = 'correct';
@@ -77,10 +79,10 @@ choices.forEach(function (choice) {
     }
 
     if (classToApply === "correct") {
-        incrementScore(+1);
+      incrementScore(+1);
     }
-      
-    
+
+
     // set delay of 1.5 seconds before colour removed and new question displays
     setTimeout(function () {
         userAnswer.parentElement.classList.remove(classToApply);
@@ -88,32 +90,36 @@ choices.forEach(function (choice) {
       },
       1500);
 
-      // if question counter has reached max questions function should not run
-  if (questionCounter == max_questions) {endGameMessage()
-    console.log('end game');
-      };
-        
+    // if question counter has reached max questions modal displays
+    if (questionCounter == max_questions) {
+      endGameMessage()
+      console.log('end game');
+    };
 
-   
+    // if question counter has reached max questions no new question should generate
+
+
+
   });
 
-  
+
 });
 
 //increments the correct answer score after each question
 function incrementScore(num) {
-   score += num;
-   scoreContent.innerText = score + '/' + max_questions;
+  score += num;
+  scoreContent.innerText = score + '/' + max_questions;
 
 };
 
 // Close the modal by clicking on x
-closeButton.onclick = function() {
+closeButton.onclick = function () {
   modal.style.display = "none";
 }
 
-// displays message at end of game
-function endGameMessage() {modal.style.display = "block";
+// displays modal at end of game
+function endGameMessage() {
+  modal.style.display = "block";
 
 }
 
@@ -137,8 +143,3 @@ runGame();
 // function incrementQuestionNumber() {
 
 // }
-
-
-
-
-
