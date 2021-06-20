@@ -29,7 +29,9 @@ function runGame() {
 function displayQuestion() {
 
   // if question counter has reached max questions function should not run
-  // if (questionCounter == maxQuestions) {
+  if (questionCounter == max_questions) {endGameMessage()
+
+  };
     
   // }
 
@@ -107,6 +109,10 @@ closeButton.onclick = function() {
   modal.style.display = "none";
 }
 
+// displays message at end of game
+function endGameMessage() {modal.style.display = "block";
+
+}
 
 // start the quiz
 runGame();
@@ -125,9 +131,9 @@ runGame();
 
 // increments the question number when new question is generated
 
-function incrementQuestionNumber() {
+// function incrementQuestionNumber() {
 
-}
+// }
 
 
 
