@@ -2,6 +2,8 @@ const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName('answer-text'));
 const questionCounterContent = document.getElementById('current-question');
 const scoreContent = document.getElementById('current-score');
+const modal = document.getElementById('modal');
+const close = document.getElementById('close-button')
 
 let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
 let score = 0 // variable for score starts at 0
