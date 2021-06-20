@@ -97,7 +97,7 @@ Each user story was tested as follows:
 
 All links on all pages were checked
 ### Bugs
-delay in response to user click on answer -  add dom event listener to wait for dom to load
+delay in response to user click on answer -  add dom event listener to wait for dom to load?
 
 ### Unfixed Bugs
 ## Deployment

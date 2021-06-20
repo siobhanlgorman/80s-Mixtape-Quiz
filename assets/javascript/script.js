@@ -29,8 +29,8 @@ function runGame() {
 function displayQuestion() {
 
   // if question counter has reached max questions function should not run
-  if (questionCounter == max_questions) {endGameMessage()
-
+  if (questionCounter >= max_questions) {endGameMessage()
+console.log('end game');
   };
     
   // }
@@ -138,7 +138,4 @@ runGame();
 
 
 
-// displays message at end of game
-function endGameMessage() {
 
-}
