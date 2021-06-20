@@ -21,6 +21,7 @@ function runGame() {
 
   questionCounter = 0;
   score = 0;
+  scoreContent.innerText = 0 + '/' + max_questions;
   availableQuestions = [...questions];
   displayQuestion();
 };
@@ -28,9 +29,7 @@ function runGame() {
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
   if (questionCounter < max_questions) {
-    
-  
-
+   
   // question counter increments by one after each time code runs
   questionCounter++;
   questionCounterContent.innerText = questionCounter + "/" + max_questions;
@@ -40,8 +39,6 @@ function displayQuestion() {
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
 
-
-  // code adapted from James Q Quick tutorial
   // access answer text content via data attribute
   choices.forEach(function (choice) {
     const number = choice.dataset["number"];
@@ -107,6 +104,7 @@ choices.forEach(function (choice) {
 
 //increments the correct answer score after each question
 function incrementScore(num) {
+  console.log(scoreContent)
   score += num;
   scoreContent.innerText = score + '/' + max_questions;
 
