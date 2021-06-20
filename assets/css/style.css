@@ -78,7 +78,7 @@ main {
 }
 
 /* style play button icon */
-.fa-play {
+.fa-play, .fa-stop {
     margin-left: 1rem;
     font-size: 5rem;
 }
@@ -183,7 +183,7 @@ main {
 
 .modal-container {
 
-    display: none; 
+    /* display: none;  */
     position: fixed; 
     z-index: 1; 
     left: 0;
