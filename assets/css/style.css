@@ -202,10 +202,16 @@ main {
 /* Modal Close Button */
 .close {
     color:#36454F;
-    float: right;
+    /* float: right; */
     font-size: 28px;
     font-weight: bold;
   }
+
+.close:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /* media queries for smallest mobile phone */
 
 @media(min-width : 300px) and (max-width : 576px) {
