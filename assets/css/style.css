@@ -192,6 +192,7 @@ main {
     height: 100%; 
     background-color:rgba(128, 0, 128, 0.2);
     text-align: center;
+    padding-top: 5rem;
     /* display: flex;
     justify-content: center; */
 } 
@@ -199,8 +200,11 @@ main {
 .modal-content {
     
    background-color: pink;
-   
-   
+ 
+}
+
+.modal-content > div {
+    height: 6rem;
 }
 
 /* Modal Close Button */
