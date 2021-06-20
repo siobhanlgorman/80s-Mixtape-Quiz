@@ -3,7 +3,7 @@ const choices = Array.from(document.getElementsByClassName('answer-text'));
 const questionCounterContent = document.getElementById('current-question');
 const scoreContent = document.getElementById('current-score');
 const modal = document.getElementById('modal');
-const close = document.getElementById('close-button')
+const closeButton = document.getElementById('close-button')
 
 let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
 let score = 0 // variable for score starts at 0
@@ -102,11 +102,17 @@ function incrementScore(num) {
 
 };
 
-
+// Close the modal by clicking on x
+closeButton.onclick = function() {
+  modal.style.display = "none";
+}
 
 
 // start the quiz
 runGame();
+
+
+
 
 
 //wait for elements to load before game starts??? where??? which elements?? should be in display question
@@ -122,6 +128,8 @@ runGame();
 function incrementQuestionNumber() {
 
 }
+
+
 
 
 // displays message at end of game
