@@ -179,6 +179,8 @@ main {
     background-color: red;
 }
 
+/* the modal container */
+
 .modal-container {
     /* display: none; */
     position: fixed;
@@ -197,6 +199,13 @@ main {
     border-radius: 4px;
 }
 
+/* Modal Close Button */
+.close {
+    color:#36454F;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
 /* media queries for smallest mobile phone */
 
 @media(min-width : 300px) and (max-width : 576px) {

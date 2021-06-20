@@ -127,7 +127,7 @@ The following tutorials were useful as a guide
 On how to use datasets (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 timeout function https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
-[How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0)
+Designing a modal: [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0); (https://www.w3schools.com/howto/howto_css_modals.asp)
 ### Media
 
 From [Pixabay](https://pixabay.com/):
