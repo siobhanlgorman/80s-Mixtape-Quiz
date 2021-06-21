@@ -284,9 +284,9 @@ let questions = [{
     {
     question: "'That's great! It starts with an earthquake, birds and snakes an aeroplane, Lenny Bruce is not afraid' are the opening lyrics to which song?",
     choice1: "'We Didn't Start the Fire' by Billy Joel",
-    choice2: "'Everybody Wants to Rule the World' by Tears for Fears",
+    choice2: "'Everybody Wants to Rule the World' Tears for Fears",
     choice3: "'You Dropped a Bomb On Me' by The Gap Band",
-    choice4: "'It's the End of the World As We Know It (And I feel Fine)' by REM",
+    choice4: "'It's the End of the World As We Know It' by REM",
     answer: "4"
     },
     {
