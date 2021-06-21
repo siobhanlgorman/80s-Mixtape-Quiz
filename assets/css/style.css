@@ -138,7 +138,7 @@ main {
 
 /* answers container */
 .answers-container {
-    width: 80%;
+    width: 85%;
     height: 12rem;
     display: flex;
     flex-wrap: wrap;
