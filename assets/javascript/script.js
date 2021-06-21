@@ -7,6 +7,7 @@ const modal = document.getElementById('modal');
 const closeButton = document.getElementById('close-button');
 const finalScore = document.getElementById('f-score');
 const endMessage = document.getElementById('final-message');
+const playAgain = document.getElementById('play-again')
 
 let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
 let score = 0; // variable for score starts at 0
@@ -140,6 +141,12 @@ function endGameMessage() {
 
 }
 
+playAgain.onclick = function() {
+  modal.style.display = "none";
+  console.log("modal is closed");
+  runGame();
+  console.log("new question is displayed");
+}
 
 // start the quiz
 runGame();
