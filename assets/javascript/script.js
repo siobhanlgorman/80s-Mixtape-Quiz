@@ -42,17 +42,20 @@ function displayQuestion() {
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
+    console.log(currentQuestion)
 
     // access answer text content via data attribute
     choices.forEach(function (choice) {
       const number = choice.dataset["number"];
       choice.innerText = currentQuestion["choice" + number];
+      
 
-    });
+    })
 
     // remove already used question from array selection
-    availableQuestions.splice(question.Index, 1);
+    availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
+    
   }
 }
 
@@ -114,7 +117,6 @@ function incrementScore(num) {
 }
 
 
-
 // Close the modal by clicking on x
 closeButton.onclick = function () {
   modal.style.display = "none";
@@ -146,12 +148,11 @@ playAgain.onclick = function() {
   console.log("modal is closed");
   runGame();
   console.log("new question is displayed");
+  // why does counter start at 2 after modal is closed?
 }
 
 // start the quiz
 runGame();
-
-
 
 
 

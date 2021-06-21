@@ -1,27 +1,35 @@
 # Mixtape Quix
+[The live website is here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
 ## Introduction
-The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties and nineties. Users answer mulitple choice questions and are rated on their score out of ten.
+The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their score out of six.
 The project goal is to provide a fun interactive music quiz
 
 ## User Experience Design
 ### Target Audience
-The quiz targets people of all ages who enjoy quizzes and are interested in music of the eighties and nineties
-### User Stories
-As a user I would like to play a fun quiz
-want to easily see what the quiz topic is
-answer questions
-answer different questions each time I play
-improve my score each time I play
-be entertained and a little challenged
-As a user I would like to see how knowledgeable I am on the topic of music in the eighties and nineties
-As a user I want to be able to navigate easily around the application
+The quiz targets people of all ages who enjoy quizzes and are specifically interested in music of the eighties
 
-As creator??
-want to create fun quiz, have enough questions to be interesting, for user to enjoy, easy to add questions
+### User Stories
+As the site owner I want to:
+* create a challenging quiz on the topic of eighties music trivia
+
+
+As a general user I want to:
+* play a fun quiz
+* answer questions on the topic
+* answer different questions each time I play
+* be entertained and a little challenged
+* see how knowledgeable I am on the topic of music
+* navigate easily around the application
+* be able to use the application on different sized screens
+
+As a new user I want to 
+* easily see what the quiz topic is
+
+
 
 ### Strategy 
-The purpose of this online quiz is to entertain people who like 80s and 90s music. 
-business goals what are we aiiming to achieve and for whom
+The purpose of this online quiz is to entertain people who like 80s music. 
+business goals what are we aiming to achieve and for whom
 #### Goals
   * to provide an entertaining interactive application
   * 
@@ -58,7 +66,15 @@ Background image of cassettes (see credits) to fit the title theme of an eightie
 Home page
 Play button to navigate to quiz page
 
+Quiz page
+
+
 ### Future Features
+
+Save user name 
+Save high scores
+
+
 ### Languages Used
 HTML (Hypertext Markup Language) was used to design the basic website and CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
 Javascript
