@@ -31,26 +31,26 @@ function runGame() {
 // displays new question  function adapted from James Q Quick tutorial
 function displayQuestion() {
   if (questionCounter < max_questions) {
-   
-  // question counter increments by one after each time code runs
-  questionCounter++;
-  questionCounterContent.innerText = questionCounter + "/" + max_questions;
 
-  //random question generated from available questions array
-  const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-  currentQuestion = availableQuestions[questionIndex];
-  question.innerText = currentQuestion.question;
+    // question counter increments by one after each time code runs
+    questionCounter++;
+    questionCounterContent.innerText = questionCounter + "/" + max_questions;
 
-  // access answer text content via data attribute
-  choices.forEach(function (choice) {
-    const number = choice.dataset["number"];
-    choice.innerText = currentQuestion["choice" + number];
+    //random question generated from available questions array
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
 
-  });
+    // access answer text content via data attribute
+    choices.forEach(function (choice) {
+      const number = choice.dataset["number"];
+      choice.innerText = currentQuestion["choice" + number];
 
-  // remove already used question from array selection
-  availableQuestions.splice(question.Index, 1);
-  acceptingAnswers = true;
+    });
+
+    // remove already used question from array selection
+    availableQuestions.splice(question.Index, 1);
+    acceptingAnswers = true;
   }
 };
 
@@ -122,6 +122,17 @@ closeButton.onclick = function () {
 // displays modal at end of game
 function endGameMessage() {
   finalScore.innerText = "You scored " + scoreContent.innerText;
+  if (score <= 2) {
+    endMessage.innerText = "Hmmm...80s might not be your music era..."
+
+  } else if (score <= 4) {
+    endMessage.innerText = "Might to broaden your eighties playlists!"
+
+  } else {
+    endMessage.innerText = "Wow! Eighties music really is your thing!"
+
+  };
+
   modal.style.display = "block";
 
 }
@@ -139,7 +150,3 @@ runGame();
 // document.addEventListener("DOMContentLoaded", function()) {
 
 // }
-
-
-
-
