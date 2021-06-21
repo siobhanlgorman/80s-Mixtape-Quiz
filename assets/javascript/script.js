@@ -120,7 +120,7 @@ closeButton.onclick = function () {
 
 // displays modal at end of game
 function endGameMessage() {
-  finalScore.innerText = "You scored" + scoreContent
+  finalScore.innerText = "You scored" + scoreContent.innerText
   modal.style.display = "block";
 
 }
