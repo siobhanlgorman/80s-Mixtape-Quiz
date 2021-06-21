@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let questions = [{
     question: "Survivor had a hit with Eye of the Tiger. Which film did it feature in",
     choice1: "Ghostbusters",
@@ -305,4 +306,4 @@ let questions = [{
     answer: "2"
     },
    
-]
+];
