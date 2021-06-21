@@ -164,7 +164,11 @@ main {
 
     cursor: pointer;
     font-weight: 500;
-    
+        
+}
+
+.answer-text {
+    width: 100%;
 }
 
 .answer {

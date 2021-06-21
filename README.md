@@ -116,6 +116,8 @@ All links on all pages were checked
 ### Bugs
 delay in response to user click on answer -  add dom event listener to wait for dom to load?
 splice not working to remove already asked question
+modal diplaying automatically despite display: none, seemed to be overridden by section container - I changed section back to div to fix this.
+have to click on actual text for click to be recognised need whole box to be recognised.
 
 ### Unfixed Bugs
 ## Deployment
