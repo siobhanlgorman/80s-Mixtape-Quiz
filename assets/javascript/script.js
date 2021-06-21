@@ -54,7 +54,7 @@ function displayQuestion() {
 };
 
 
-// forEach method to check what answer the user has chosen by click (adapted from James Q Quick tutorial)
+// check what answer the user has chosen by click (adapted from James Q Quick tutorial)
 choices.forEach(function (choice) {
   choice.addEventListener('click', function (event) {
     if (!acceptingAnswers) return; // function ends if not accepting answers
@@ -120,6 +120,7 @@ closeButton.onclick = function () {
 
 // displays modal at end of game
 function endGameMessage() {
+  finalScore.innerText = "You scored" + scoreContent
   modal.style.display = "block";
 
 }
