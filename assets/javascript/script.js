@@ -136,8 +136,9 @@ function endGameMessage() {
 
   modal.style.display = "block";
 
-}
+  
 
+}
 
 
 // start the quiz
