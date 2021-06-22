@@ -1,4 +1,5 @@
 /*jshint esversion: 8 */
+// constant variables
 const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName('answer-text'));
 const questionCounterContent = document.getElementById('current-question');
