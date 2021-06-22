@@ -83,6 +83,11 @@ main {
     font-size: 5rem;
 }
 
+#back-btn {
+    font-size: 1rem;
+}
+
+
 /* quiz area styling */
 .quiz-container {
     width: 40rem;

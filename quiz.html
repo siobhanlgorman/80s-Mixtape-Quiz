@@ -18,7 +18,12 @@
 
             <div class="counter-container">
                 <p>Score : <span id="current-score"></span></p>
-                <p> Question : <span id="current-question"></span></p>
+                <p>Question : <span id="current-question"></span></p>
+                <p>Stop Quiz
+                    <a href="index.html">
+                    <i class="fas fa-stop" id="back-btn"></i>
+                    </a>
+                </p>
             </div>
 
             <!-- question box container-->
@@ -68,31 +73,26 @@
                     <p id="f-score">Score</p>
                 </div>
                 <div class="message">
-                    <p id="final-message">Javascript generated message
-                    </p>
+                    <p id="final-message">Javascript generated message</p>
                 </div>
-                <div onclick="displayQuestion()" class="play-again" id="start-again">
-                    <p> Play Again!</p><i class="fas fa-play" id="play-again"></i>
+                <div class="play-again" id="start-again">
+                    <p> Play Again!</p>
+                    <i class="fas fa-play" id="play-again"></i>
                 </div>
-                <div id="stop-quiz"><a href="index.html">
-                        <p> Stop Quiz </p><i class="fas fa-stop"></i>
+                <div id="stop-quiz">
+                    <a href="index.html">
+                        <p> Stop Quiz </p>
+                        <i class="fas fa-stop"></i>
                     </a>
-
                 </div>
             </div>
         </aside>
 
     </main>
 
-
-
-
-
-
-
+    <script src="https://kit.fontawesome.com/a7ee9dc3df.js" crossorigin="anonymous"></script>
     <script src="assets/javascript/quiz_questions.js"></script>
     <script src="assets/javascript/script.js"></script>
-    <script src="https://kit.fontawesome.com/a7ee9dc3df.js" crossorigin="anonymous"></script>
 
 </body>
 
