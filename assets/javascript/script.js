@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 8 */
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName('answer-text'));
 const questionCounterContent = document.getElementById('current-question');
@@ -7,7 +7,7 @@ const modal = document.getElementById('modal');
 const closeButton = document.getElementById('close-button');
 const finalScore = document.getElementById('f-score');
 const endMessage = document.getElementById('final-message');
-const playAgain = document.getElementById('play-again')
+const playAgain = document.getElementById('play-again');
 
 let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
 let score = 0; // variable for score starts at 0
@@ -25,7 +25,7 @@ function runGame() {
 
   questionCounter = 0;
   score = 0;
-  scoreContent.innerText = 0 + '/' + max_questions;
+  scoreContent.innerText = '0 /' + max_questions;
   availableQuestions = [...questions];
   displayQuestion();
 }
@@ -35,8 +35,10 @@ function displayQuestion() {
   if (questionCounter < max_questions) {
 
     // question counter increments by one after each time code runs
+    console.log(questionCounter)
     questionCounter++;
     questionCounterContent.innerText = questionCounter + "/" + max_questions;
+    console.log(questionCounter)
 
     //random question generated from available questions array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
