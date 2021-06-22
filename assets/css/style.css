@@ -39,9 +39,9 @@ main {
     align-items: center;
     background: url('../images/cassette-5986249_1280.png') no-repeat center center;
     background-color: purple;
-    
+
     background-size: cover;
-    
+
 
 
 }
@@ -78,7 +78,8 @@ main {
 }
 
 /* style play button icon */
-.fa-play, .fa-stop {
+.fa-play,
+.fa-stop {
     margin-left: 1rem;
     font-size: 5rem;
 }
@@ -93,7 +94,7 @@ main {
 .quiz-container {
     width: 40rem;
     height: 30rem;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,7 +164,7 @@ main {
     flex-direction: row;
     line-height: 1.25;
     align-items: center;
-    
+
 }
 
 /* answer box text styling */
@@ -172,7 +173,7 @@ main {
     cursor: pointer;
     font-weight: 500;
     font-size: 0.9rem;
-        
+
 }
 
 .answer-text {
@@ -195,39 +196,35 @@ main {
 
 .modal-container {
 
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
+    display: none;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    /* background-color:rgba(128, 0, 128, 0.2); */
+    width: 100%;
+    height: 100%;
     background-color: rgba(128, 0, 128, 0.5);
     text-align: center;
     padding-top: 5rem;
-    /* display: flex;
-    justify-content: center; */
-} 
-    
+}
+
 .modal-content {
-    
+
     background-color: pink;
-    margin: 10% auto; 
+    margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 65%; 
-    /* box-sizing: border-box; */
+    width: 65%;
     border: solid purple 2px;
-    box-shadow: purple;
- 
+
+
 }
 
 .modal-content p {
     font-size: 1.2rem;
     padding: 1rem;
     font-weight: bold;
-    
+
 }
 
 #final-message {
@@ -239,17 +236,17 @@ main {
     font-size: 1.5rem;
     font-weight: bolder;
 }
-    
+
 
 
 /* Modal Close Button */
 .close {
-    color:white;
+    color: white;
     float: right;
     font-size: 35px;
     font-weight: bold;
     padding-right: 1rem;
-  }
+}
 
 .close:hover {
     cursor: pointer;
@@ -264,7 +261,9 @@ main {
 /* media queries for smallest mobile phone */
 
 @media(min-width : 300px) and (max-width : 576px) {
-    .quiz-container, #home {
+
+    .quiz-container,
+    #home {
         width: 90%;
         height: 80vh;
     }
@@ -272,7 +271,7 @@ main {
     #home p {
         padding: 2rem;
     }
-    
+
 
     .counter-container p {
         font-size: 0.8rem;
@@ -295,17 +294,19 @@ main {
         width: 100%;
     }
 
-    
+
 }
 
 /* media queries for small tablet */
 @media(min-width : 576px) and (max-width : 768px) {
-    .quiz-container, #home {
+
+    .quiz-container,
+    #home {
         width: 90%;
         height: 80vh;
     }
 
-    
+
 
     .counter-container p {
         font-size: 1rem;
