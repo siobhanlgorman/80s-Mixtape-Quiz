@@ -13,7 +13,7 @@ const max_questions = 6;
 let questionCounter = 0; // variable for question number user is on starts at 0 link to counter element
 let score = 0; // variable for score starts at 0
 let displayedQuestion = {};
-let acceptingAnswers = true; //delay before next question generated
+let answersAllowed = true; //delay before next question generated
 let questionArray = []; // full array of questions
 
 // starts the game -- function adapted from James Q Quick tutorial see Readme for full credit
@@ -51,7 +51,7 @@ function displayQuestion() {
 
     // remove already used question from array selection
     questionArray.splice(questionIndex, 1);
-    acceptingAnswers = true;
+    answersAllowed = true;
 
   }
 }
@@ -59,8 +59,8 @@ function displayQuestion() {
 // check what answer the user has chosen by click (adapted from James Q Quick tutorial)
 options.forEach(function (option) {
   option.addEventListener('click', function (event) {
-    if (!acceptingAnswers) return; // function ends if not accepting answers
-    acceptingAnswers = false; //
+    if (!answersAllowed) return; // function ends if not accepting answers
+    answersAllowed = false; //
     const userAnswer = event.target; //variable for the user selection
     const correctAnswer = userAnswer.dataset.number; //variable for the correct answer
 
