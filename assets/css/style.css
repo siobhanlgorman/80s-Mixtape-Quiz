@@ -155,6 +155,7 @@ main {
     border-radius: 4px;
     display: flex;
     flex-direction: row;
+    line-height: 1.25;
     /* align-items: center; */
     
 }
@@ -194,7 +195,8 @@ main {
     top: 0;
     width: 100%; 
     height: 100%; 
-    background-color:rgba(128, 0, 128, 0.2);
+    /* background-color:rgba(128, 0, 128, 0.2); */
+    background-color: rgba(128, 0, 128, 0.5);
     text-align: center;
     padding-top: 5rem;
     /* display: flex;
@@ -208,12 +210,27 @@ main {
     padding: 20px;
     border: 1px solid #888;
     width: 65%; 
+    /* box-sizing: border-box; */
+    border: solid purple 2px;
+    box-shadow: purple;
  
 }
 
 .modal-content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem;
+    font-weight: bold;
+    
+}
+
+#final-message {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+#f-score {
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
     
 

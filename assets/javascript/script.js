@@ -48,14 +48,14 @@ function displayQuestion() {
     choices.forEach(function (choice) {
       const number = choice.dataset["number"];
       choice.innerText = currentQuestion["choice" + number];
-      
+
 
     })
 
     // remove already used question from array selection
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
-    
+
   }
 }
 
@@ -93,11 +93,15 @@ choices.forEach(function (choice) {
       },
       1500);
 
+    console.log(questionCounter);
+
     // if question counter has reached max questions modal displays
     if (questionCounter == max_questions) {
       endGameMessage();
       console.log('end game');
     }
+
+    console.log(questionCounter);
 
     // if question counter has reached max questions no new question should generate
 
@@ -122,7 +126,7 @@ closeButton.onclick = function () {
   modal.style.display = "none";
 };
 
-
+console.log(questionCounter)
 // displays modal at end of game
 function endGameMessage() {
   finalScore.innerText = "You scored " + scoreContent.innerText;
@@ -136,21 +140,22 @@ function endGameMessage() {
     endMessage.innerText = "Wow! Eighties music really is your thing my friend!";
 
   }
-
+  console.log(questionCounter)
   modal.style.display = "block";
 
-  
+
 
 }
-
-playAgain.onclick = function() {
+console.log(questionCounter)
+playAgain.onclick = function () {
   modal.style.display = "none";
   console.log("modal is closed");
   runGame();
   console.log("new question is displayed");
-  // why does counter start at 2 after modal is closed?
+  // why does counter start at 2 after modal is closed? but console.log says it's 1??
+  console.log(questionCounter)
 }
-
+console.log(questionCounter)
 // start the quiz
 runGame();
 
