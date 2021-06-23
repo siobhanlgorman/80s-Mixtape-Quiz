@@ -16,9 +16,8 @@ let displayedQuestion = {};
 let answersAllowed = true;
 let questionArray = [];
 
-// starts the game -- function adapted from James Q Quick tutorial see Readme for full credit
+// starts the game -- functions to start game and generate questions adapted from James Q Quick tutorial see Readme for full credit
 function runGame() {
-
   qnCounter = 0;
   score = 0;
   scoreContent.innerText = '0 /' + max_questions;
@@ -61,8 +60,8 @@ options.forEach(function (option) {
       incrementScore(+1);
     }
     setTimeout(function () {
-      userAnswer.parentElement.classList.remove(classToApply);
-      displayQuestion();
+        userAnswer.parentElement.classList.remove(classToApply);
+        displayQuestion();
       },
       1000);
     // if question counter has reached max questions modal displays
@@ -91,7 +90,6 @@ function endGameMessage() {
 // restarts game if user clicks play button in modal
 playAgain.onclick = function () {
   modal.style.display = "none";
-  console.log("play again")
   runGame();
 };
 // start the quiz
