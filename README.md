@@ -67,12 +67,25 @@ Home page
 Play button to navigate to quiz page
 
 Quiz page
+Score Counter
+Question number indicator
+Stop button - ends quiz by navigating back to home page
+Answers turn either red for incorrect answer or green for correct
+
+Modal
+final score
+Special message
+Play again button - closes modal and restarts quiz
+Stop button - navigates to home page
 
 
 ### Future Features
 
 Save user name 
 Save high scores
+Indicate correct answer when answer incorrectly - only when sufficient questions
+
+
 
 
 ### Languages Used
