@@ -64,7 +64,7 @@ options.forEach(function (option) {
       userAnswer.parentElement.classList.remove(classToApply);
       displayQuestion();
       },
-      1500);
+      1000);
     // if question counter has reached max questions modal displays
     if (qnCounter == max_questions) {
       endGameMessage();
