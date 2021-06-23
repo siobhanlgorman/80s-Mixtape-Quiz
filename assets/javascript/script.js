@@ -97,12 +97,6 @@ function incrementScore(num) {
   scoreContent.innerText = score + '/' + max_questions;
 }
 
-// Close the modal by clicking on x
-closeButton.onclick = function () {
-  modal.style.display = "none";
-};
-
-
 // displays modal at end of game
 function endGameMessage() {
   finalScore.innerText = "Score: " + scoreContent.innerText;
@@ -124,6 +118,7 @@ function endGameMessage() {
 // restarts game if user clicks play button in modal
 playAgain.onclick = function () {
   modal.style.display = "none";
+  console.log("play again")
   runGame();
 
 };
