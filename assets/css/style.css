@@ -85,7 +85,7 @@ main {
 }
 
 #back-btn {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: black;
 }
 
@@ -108,7 +108,7 @@ main {
 
 /* counters container at top of quiz */
 .counter-container {
-    width: 80%;
+    width: 90%;
     height: 4rem;
     display: flex;
     justify-content: space-around;
@@ -260,14 +260,14 @@ main {
 
 /* media queries for smallest mobile phone */
 
-@media(min-width : 300px) and (max-width : 400px) {
+@media(min-width : 300px) and (max-width : 330px) {
 .counter-container {
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-}
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+ 
 
 
-}
+
 
 @media(min-width : 300px) and (max-width : 576px) {
 
@@ -286,6 +286,12 @@ main {
 
     .counter-container p {
         font-size: 0.8rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    #back-btn {
+        font-size: 0.7rem;
     }
 
     .question-container {
