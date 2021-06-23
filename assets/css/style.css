@@ -258,16 +258,6 @@ main {
     color: #36454F;
 }
 
-/* media queries for smallest mobile phone */
-
-@media(min-width : 300px) and (max-width : 330px) {
-.counter-container {
-    flex-wrap: wrap;
-    /* flex-direction: column; */
- 
-
-
-
 
 @media(min-width : 300px) and (max-width : 576px) {
 
@@ -285,7 +275,7 @@ main {
 
 
     .counter-container p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: center;
         padding: 0;
     }
