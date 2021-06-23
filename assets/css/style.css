@@ -41,11 +41,7 @@ main {
     background-color: purple;
 
     background-size: cover;
-
-
-
 }
-
 
 #home {
 
@@ -62,7 +58,6 @@ main {
     background-color: pink;
 
 }
-
 
 /* style text link to quiz page */
 #home-btn {
@@ -88,7 +83,6 @@ main {
     font-size: 1rem;
     color: black;
 }
-
 
 /* quiz area styling */
 .quiz-container {
@@ -134,7 +128,6 @@ main {
     border: 2px solid #36454F;
     border-radius: 4px;
 }
-
 
 /* style question text */
 .question-container h1 {
@@ -217,7 +210,6 @@ main {
     width: 75%;
     border: solid purple 2px;
 
-
 }
 
 .modal-content p {
@@ -237,14 +229,10 @@ main {
     font-weight: bolder;
 }
 
-
-
-
 #stop-quiz a {
     text-decoration: none;
     color: #36454F;
 }
-
 
 @media(min-width : 300px) and (max-width : 576px) {
 
@@ -290,7 +278,6 @@ main {
         font-size: 3.5rem;
     }
 
-
 }
 
 /* media queries for small tablet */
@@ -301,8 +288,6 @@ main {
         width: 90%;
         height: 80vh;
     }
-
-
 
     .counter-container p {
         font-size: 1rem;
