@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap');
 
-
+/* global style */
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +10,7 @@
 html,
 body {
     height: 100%;
-
 }
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -20,11 +18,12 @@ body {
     color: #36454F
 }
 
-
+/* heading size */
 h1 {
     font-size: 2rem;
 }
 
+/* paragraph size */
 p {
     font-size: 1rem;
 }
@@ -39,12 +38,11 @@ main {
     align-items: center;
     background: url('../images/cassette-5986249_1280.png') no-repeat center center;
     background-color: purple;
-
     background-size: cover;
 }
 
+/* home page */
 #home {
-
     width: 40rem;
     height: 30rem;
     border-radius: 4px;
@@ -59,7 +57,7 @@ main {
 
 }
 
-/* style text link to quiz page */
+/* home page link to quiz page */
 #home-btn {
     font-size: 2rem;
     font-weight: bold;
@@ -72,7 +70,7 @@ main {
     flex-direction: column;
 }
 
-/* style play button icon */
+/* play button icon */
 .fa-play,
 .fa-stop {
     margin-left: 1rem;
@@ -88,7 +86,6 @@ main {
 .quiz-container {
     width: 40rem;
     height: 30rem;
-
     display: flex;
     flex-direction: column;
     align-items: center;
