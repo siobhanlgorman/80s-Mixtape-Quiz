@@ -136,9 +136,18 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 4. In Settings scroll down to [GitHub pages](https://github.com/siobhanlgorman/Sourdough-Bakes/settings/pages) which opens in a new page.
 5. From the source section drop-down menu, select the Master Branch
 6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
-
 The link to the live website is here:
 [Sourdough Bakes](https://siobhanlgorman.github.io//)
+
+## Cloning the repository
+1. On Github navigate to the main page of the repository
+2. Above the list of files click the dropdown code menu
+3. To clone the repository using Github Cli, click use Github CLI, then click ???? save??? copy???
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory
+6. Type Git clone and then paste the copied URL
+7. Press enter to create the local clone
+
 
 ## Credits
 ### Content
