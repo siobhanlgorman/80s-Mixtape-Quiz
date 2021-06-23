@@ -112,7 +112,6 @@ main {
     border: 2px solid #36454F;
     border-radius: 4px;
     padding: 0.25rem;
-    /* width: 50%; */
 }
 
 .counter-container a {
@@ -124,13 +123,12 @@ main {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: #36454F;
-    /* width: 50%; */
 }
 
 
 /* style question container  */
 .question-container {
-    width: 80%;
+    width: 85%;
     height: 8rem;
     display: flex;
     align-items: center;
@@ -259,7 +257,13 @@ main {
     .counter-container p {
         font-size: 0.7rem;
         text-align: center;
-        padding: 0;
+        padding: 0.2rem;
+    }
+
+    .counter-container a {
+        font-size: 0.7rem;
+        text-align: center;
+        padding: 0.2rem;
     }
 
     #back-btn {
