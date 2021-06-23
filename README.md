@@ -61,6 +61,7 @@ what will the product look like: colours, typography, images, design elements
 Colours - 80s colours - purple, turquoise Used values from [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel)
 Font colour charcoal #36454F
 Background image of cassettes (see credits) to fit the title theme of an eighties mixtape.
+Navigation buttons were styled with icons representing the buttons on a cassette player.
 ## Features
 ### Existing Features
 
@@ -105,7 +106,7 @@ Javascript
 
 [Google maps](https://www.google.com/maps) was used to provide a map link.
 
-[Picresize](https://picresize.com) was used to resize photos
+[Picresize](https://picresize.com) was used to resize photosthe photo used for the background
 
 
 ## Testing
@@ -116,7 +117,7 @@ Javascript
 * Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
 
 ## Responsiveness
-The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
+The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found. The quiz was found not to be compatible with Internet Explorer
 
 The website was tested on numerous sized screens including Iphones 8 and X, Moto G8 plus, 15" laptop, 24" screen and Ipad and was found to respond as expected to all sizes.
 Chrome development tools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
