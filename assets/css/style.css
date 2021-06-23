@@ -271,9 +271,6 @@ main {
         padding: 2rem;
     }
 
-
-
-
     .counter-container p {
         font-size: 0.7rem;
         text-align: center;
@@ -299,6 +296,12 @@ main {
 
     .answer-box {
         width: 100%;
+    }
+
+    .fa-play,
+    .fa-stop {
+
+        font-size: 3.5rem;
     }
 
 
