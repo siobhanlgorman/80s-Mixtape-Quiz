@@ -111,6 +111,14 @@ Chrome development tools was used throughout the design process to check respons
 Each user story was tested as follows:
 
 ## Manual Testing
+The quiz was tested by users. Feedback was positive from those with knowledge of the genre. One user reported that the reposnse to user answer was too laggy so the timeout delay for the removal of colour change was reduced from 1.5seconds to 1 second.
+
+The following links were tested
+The play button on home page - links to quiz page
+stop button on quiz page - returns user to home page Exit??
+Play again button on the modal returns the user to the start of the quiz with a new question.
+The Stop button on the modal returns the user to the home page.
+the x to close the modal was removed as superflous after the stop/exit button and play again buttons were added and no link is available outside the modal to close the modal
 
 All links on all pages were checked
 ### Bugs
