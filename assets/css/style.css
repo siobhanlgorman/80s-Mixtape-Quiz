@@ -196,7 +196,7 @@ main {
 
 .modal-container {
 
-    display: none;
+    /* display: none; */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -221,7 +221,7 @@ main {
 }
 
 .modal-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
     font-weight: bold;
 
@@ -229,29 +229,16 @@ main {
 
 #final-message {
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #f-score {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bolder;
 }
 
 
 
-/* Modal Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 35px;
-    font-weight: bold;
-    padding-right: 1rem;
-}
-
-.close:hover {
-    cursor: pointer;
-    text-decoration: none;
-}
 
 #stop-quiz a {
     text-decoration: none;
@@ -300,7 +287,6 @@ main {
 
     .fa-play,
     .fa-stop {
-
         font-size: 3.5rem;
     }
 
