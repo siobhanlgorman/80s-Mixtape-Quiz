@@ -55,6 +55,7 @@ Sections: welcome screen, start play/first question screen, completed game scree
 ### Skeleton
 how should the imfo be implemented and how will user navigate through infomration and features priority and positioning
 wireframes
+[Wireframes](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/tree/master/wireframes)
 ### Surface
 what will the product look like: colours, typography, images, design elements
 Colours - 80s colours - purple, turquoise Used values from [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel)
@@ -84,6 +85,7 @@ Stop button - navigates to home page
 Save user name 
 Save high scores
 Indicate correct answer when answer incorrectly - only when sufficient questions
+
 
 
 
