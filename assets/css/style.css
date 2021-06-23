@@ -85,7 +85,7 @@ main {
 }
 
 #back-btn {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: black;
 }
 
@@ -260,6 +260,15 @@ main {
 
 /* media queries for smallest mobile phone */
 
+@media(min-width : 300px) and (max-width : 400px) {
+.counter-container {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+
+
+}
+
 @media(min-width : 300px) and (max-width : 576px) {
 
     .quiz-container,
@@ -271,6 +280,8 @@ main {
     #home p {
         padding: 2rem;
     }
+
+
 
 
     .counter-container p {
