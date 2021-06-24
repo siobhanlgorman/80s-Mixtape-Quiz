@@ -66,7 +66,6 @@ The site is deisgned around the theme of a mixtape, popular in the eighties. The
 * Wireframes
 The wireframe design for this application are here:
 
-
 [Wireframes](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/tree/master/wireframes)
 
 ### Surface
@@ -133,8 +132,6 @@ Future features to add to improve the user interface would be:
 * Given sufficient questions, a list of questions answered correctly and incorrectly could be generated at the end of the quiz.
 * A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
-
-
 ### Languages Used
 * HTML (Hypertext Markup Language) was used to design the basic website.
 * CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
@@ -143,7 +140,7 @@ Future features to add to improve the user interface would be:
 
 ### Technologies Used
 
-Git and Github for version control
+Git was used for version control
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
@@ -169,14 +166,18 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 * Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
 
 ### Responsiveness
-The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found. The quiz was found not to be compatible with Internet Explorer
+The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found and good performance. However performance was poor on Internet Explorer
 
 The website was tested on numerous sized screens including Iphones 8 and X, Moto G8 plus, 15" laptop, 24" screen and Ipad and was found to respond as expected to all sizes.
-Chrome development tools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
+Chrome developer tools were used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly. Final testing was done on physical devices as they are the most reliable test.
 
 ### User Stories Testing
 
 Each user story was tested as follows:
+
+
+
+
 
 ### Manual Testing
 The quiz was tested by users of various ages. Feedback was positive from those with knowledge of the genre. One user reported that the reposnse to user answer was too laggy so the timeout delay for the removal of colour change was reduced from 1.5 seconds to 1 second.
