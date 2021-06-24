@@ -129,7 +129,7 @@ Future features to add to improve the user interface would be:
 * the ability to save the user name and high scores so the user could return to the quiz to beat their own scores. 
 * Currently the questions are all text-based but expanding to include visual questions with pictures would inrease enjoyment for the user.
 * An audio sound on completion of the game would also enhance experience.
-* Given sufficient questions, the correct answer could be indicated when the user enters an incorrect answer.
+* Given sufficient questions, a list of questions answered incorrectly could be generated at the end of the quiz.
 * A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
 
