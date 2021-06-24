@@ -78,7 +78,7 @@ The theme of the application is of a mixtape which was popular in the eighties.
 The background image is of attractive brightly coloured cassette tapes to reflect both the cassette tape theme and the colours popular in this decade.
 
 * Favicon
-A small image of a cassette tape wasa used as a favicon
+A small image of a cassette tape was used as a favicon in keeping with the overall theme
 
 * Icons
 The icons used for navigation were chosen to resemble the navigation buttons on a cassette player i.e. the triangle for play to start the quiz and the square for stop to return to the home page.
@@ -125,11 +125,12 @@ Stop button - navigates to home page
 ### Future Features
 
 Future features to add to improve the user interface would be:
-* in order to add features first the question pool would have to be increased and a function added to ensure that questions were not repeated within the play period of the user (currently they are not repeated within the one set of questions)
-* the ability to save the user name and high scores so the user could return to the quiz to beat their own scores. 
+* In order to add features first the question pool would have to be increased and a function added to ensure that questions were not repeated within the play period of the user (currently they are not repeated within the one set of questions)
+* the types of questions could be broadened to be target a wider variety of users with as the eighties covers a wide range of music genres
+* The ability to save the user name and high scores so the user could return to the quiz to beat their own scores. 
 * Currently the questions are all text-based but expanding to include visual questions with pictures would inrease enjoyment for the user.
 * An audio sound on completion of the game would also enhance experience.
-* Given sufficient questions, a list of questions answered incorrectly could be generated at the end of the quiz.
+* Given sufficient questions, a list of questions answered correctly and incorrectly could be generated at the end of the quiz.
 * A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
 
@@ -152,13 +153,14 @@ Git and Github for version control
 
 [Picresize](https://picresize.com) and [Squoosh](https://squoosh.app/) were used to resize the photo used for the background
 
-For the 80s colours paletter - purple, pink, and turquoise tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
+For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
 
 ## Testing
 ### Validator Testing
 * [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found
 * [CSS Validator](https://validator.w3.org/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
 * [JS Hint](https://jshint.com/) was used to check the two javascript files. One unused variable refers to the variable questions which is declared in the quiz questions file.
+* Chrome Developer Tools was used in resposiveness design and in debugging javascript functions.
 * Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
 
 ## Responsiveness
