@@ -19,7 +19,6 @@ As a general user I want to:
 * easily see if my answer is right or wrong
 * view my final score
 * easily restart the game after I finish
-* be entertained and a little challenged
 * be rated on my knowledge of the subject
 * be able to use the application on different sized screens
 
@@ -224,13 +223,23 @@ At the end of the quiz a modal pops up which displays the user's final score
 The modal offers the user the opportunity to restart the quiz
 ![alt-text](documentation/modal_mobile.png)
 
-* be entertained and a little challenged
+
 * be rated on my knowledge of the subject
+When the quiz ends the modal pops up and displays a fun message rating the user's knowledge on the topic according to their final score.
+
+![alt-text](documentation/fun_message.png)
+
 * be able to use the application on different sized screens
+The image responds to different screen sizes with the game play area and modal in a central position and the answer choices moving from 2 rows on a large and medium screen to one column on smaller screens.
+
+![alt-text](documentation/quiz_tab.png)
+![alt-text](documentation/quiz_mobile.png)
+
 
 As a new user I want to 
 * easily see what the quiz topic is
-
+The quiz title and topic are clearly displayed on the landing page
+![alt-text](documentation/home_tab.png)
 
 
 
