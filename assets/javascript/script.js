@@ -66,17 +66,20 @@ options.forEach(function (option) {
         displayQuestion();
       },
       1000);
+
     // if question counter has reached max questions modal displays
     if (qnCounter == max_questions) {
       endGameMessage();
     }
   });
 });
+
 //increments the correct answer score after each question
 function incrementScore(num) {
   score += num;
   scoreContent.innerText = score + '/' + max_questions;
 }
+
 // displays modal at end of game
 function endGameMessage() {
   finalScore.innerText = "Score: " + scoreContent.innerText;
@@ -89,26 +92,14 @@ function endGameMessage() {
   }
   modal.style.display = "block";
 }
-console.log(playAgain)
-console.log("restart")
-// restarts game if user clicks play button in modal
 
-playAgain.forEach(function (element)  {
-  element.addEventListener('click', function (event) {
+// restarts game if user clicks play button in modal
+playAgain.forEach(function (playLink)  {
+  playLink.addEventListener('click', function (event) {
     modal.style.display = "none";
     runGame();
-    console.log('someone hit me');
-  });
+      });
 });
 
-// playAgain.onclick = function () {
-//   modal.style.display = "none";
-//   runGame();
-// };
-// startAgain.onclick = function () {
-//   modal.style.display = "none";
-//   runGame();
-// };
-console.log("restart")
 // start the quiz
 runGame();
