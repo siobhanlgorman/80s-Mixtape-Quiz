@@ -5,7 +5,6 @@ const options = Array.from(document.getElementsByClassName('answer-text'));
 const qnCounterContent = document.getElementById('current-question');
 const scoreContent = document.getElementById('current-score');
 const modal = document.getElementById('modal');
-const closeButton = document.getElementById('close-button');
 const finalScore = document.getElementById('f-score');
 const endMessage = document.getElementById('final-message');
 const playAgain = document.querySelectorAll('#play-again, #start-again');
