@@ -155,6 +155,11 @@ Git and Github for version control
 
 For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
 
+* [HTML Validator](https://validator.w3.org/)
+* [CSS Validator](https://validator.w3.org/)
+* [JS Hint](https://jshint.com/)
+
+
 ## Testing
 ### Validator Testing
 * [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found
