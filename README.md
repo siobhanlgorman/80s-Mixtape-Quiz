@@ -1,35 +1,36 @@
 # Mixtape Quix
 [The live website is here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
 ## Introduction
-The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their score out of six.
-The project goal is to provide a fun interactive music quiz
+The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their final score. The project goal is to provide entertainment through a fun interactive music quiz. I picked eighties music because it's an era that I like myself and also it has undergone a revival and so would be entertaining to different age groups.
 
-## User Experience Design
+## User Experience (UX)
 ### Target Audience
-The quiz targets people of all ages who enjoy quizzes and are specifically interested in music of the eighties
+The quiz targets people of all ages who enjoy quizzes and are specifically interested in music of the eighties.
 
 ### User Stories
 As the site owner I want to:
-* create a challenging quiz on the topic of eighties music trivia
+* create an entertaining interactive quiz on the topic of eighties music trivia
+* want users to return to play the quiz again
 
 
 As a general user I want to:
 * play a fun quiz
-* answer questions on the topic
-* answer different questions each time I play
-* be entertained and a little challenged
-* see how knowledgeable I am on the topic of music
 * navigate easily around the application
+* easily see what question number I am on
+* answer challenging questions on the topic
+* easily see if my answer is right or wrong
+* view my final score
+* easily restart the game after I finish
+* be entertained and a little challenged
+* be rated on my knowledge of the subject
 * be able to use the application on different sized screens
 
 As a new user I want to 
 * easily see what the quiz topic is
 
-
-
 ### Strategy 
 The purpose of this online quiz is to entertain people who like 80s music. 
-business goals what are we aiming to achieve and for whom
+
 #### Goals
   * to provide an entertaining interactive application
   * 
