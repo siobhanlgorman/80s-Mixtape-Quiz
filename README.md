@@ -207,11 +207,11 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 The link to the live website is here:
 [80s-Mixtape-Quiz](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/index.html)
 
-## Cloning the repository
+## Cloning the repository and running locally
 1. On Github navigate to the main page of the repository
 2. Above the list of files click the dropdown code menu
-3. To clone the repository using Github Cli, click use Github CLI, then click ???? save??? copy???
-4. Open Git Bash
+3. Select https and the button to copy the link
+4. Open the GitPod Bash terminal
 5. Change the current working directory to the location where you want the cloned directory
 6. Type Git clone and then paste the copied URL
 7. Press enter to create the local clone
