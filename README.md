@@ -10,8 +10,6 @@ The quiz targets people of all ages who enjoy quizzes and are specifically inter
 ### User Stories
 As the site owner I want to:
 * create an entertaining interactive quiz on the topic of eighties music trivia
-* want users to return to play the quiz again
-
 
 As a general user I want to:
 * play a fun quiz
@@ -174,7 +172,64 @@ Chrome developer tools were used throughout the design process to check responsi
 ### User Stories Testing
 
 Each user story was tested as follows:
+As the site owner I want to:
+* create an entertaining interactive quiz on the topic of eighties music trivia
 
+The quiz was tested by a variety of friends and family who appreciated the look of the quiz and enjoyed playing it. They found it to be fun and would like more questions to be added to play more times.
+
+![alt-text](documentation/home_page.png)
+
+As a general user I want to:
+* play a fun quiz
+The welcome page with its brightly coloured image of cassettes inspires a positive emotional reponse in users and they anticipate a fun quiz. The title is prominent and clearly shows the topic of the quiz. THe theme is comprehensively supported by the image and colours. The large play call to action button invites users to start the quiz. 
+
+![alt-text](documentation/home_mob.png)
+
+* navigate easily around the application
+Navigation buttons are clearly displayed on each page. The icons are styled in keeping with the cassette theme and are minimal which keeps the user flow through the site clear. On the home page there is one call to action button prominently displayed which links to the quiz page and invites the user to start the quiz.
+
+![alt-text](documentation/play_button.png)
+
+At the top of the quiz page there is a button to stop the quiz and return to the home page.
+![alt-text](documentation/stop_quiz_button.png)
+
+On the modal page there are two prominent navigation buttons offering the user a choice of playing again or ending and returning to the home page.
+![alt-text](documentation/play_again.png)
+![alt-text](documentation/stop_quiz.png)
+
+
+* easily see what question number I am on
+
+At the top of the quiz play area there is a question number section showing the current question number and the total to be asked.
+![alt-text](documentation/question_counter.png)
+
+* answer challenging questions on the topic
+
+The question collection features a variety of questions which test a wide range of musical knowledge from different genres of the eighties.
+![alt-text](documentation/quiz_question.png)
+
+* easily see if my answer is right or wrong
+
+The answer box turns red if the user clicks a wrong answer and green if it is correct.
+
+![alt-text](documentation/red_answer.png)
+![alt-text](documentation/small_green.png)
+
+* view my final score
+At the end of the quiz a modal pops up which displays the user's final score
+![alt-text](documentation/final_score.png)
+
+* easily restart the game after I finish
+
+The modal offers the user the opportunity to restart the quiz
+![alt-text](documentation/modal_mobile.png)
+
+* be entertained and a little challenged
+* be rated on my knowledge of the subject
+* be able to use the application on different sized screens
+
+As a new user I want to 
+* easily see what the quiz topic is
 
 
 
@@ -187,6 +242,7 @@ The play button on home page - links to quiz page
 stop button on quiz page - returns user to home page Exit??
 Play again button on the modal returns the user to the start of the quiz with a new question.
 The Stop button on the modal returns the user to the home page.
+The modal pops up at the end of the quiz. Links
 the x to close the modal was removed as superflous after the stop/exit button and play again buttons were added and no link is available outside the modal to close the modal
 
 All links on all pages were checked
