@@ -8,7 +8,9 @@ const modal = document.getElementById('modal');
 const closeButton = document.getElementById('close-button');
 const finalScore = document.getElementById('f-score');
 const endMessage = document.getElementById('final-message');
-const playAgain = document.getElementById('play-again');
+// const playAgain = document.getElementById('play-again');
+// const startAgain = document.getElementById('start-again')
+const playAgain = document.querySelectorAll('#play-again, #start-again')
 const max_questions = 6;
 let qnCounter = 0;
 let score = 0;
@@ -87,10 +89,26 @@ function endGameMessage() {
   }
   modal.style.display = "block";
 }
+console.log(playAgain)
+console.log("restart")
 // restarts game if user clicks play button in modal
-playAgain.onclick = function () {
-  modal.style.display = "none";
-  runGame();
-};
+
+playAgain.forEach(function (element)  {
+  element.addEventListener('click', function (event) {
+    modal.style.display = "none";
+    runGame();
+    console.log('someone hit me');
+  });
+});
+
+// playAgain.onclick = function () {
+//   modal.style.display = "none";
+//   runGame();
+// };
+// startAgain.onclick = function () {
+//   modal.style.display = "none";
+//   runGame();
+// };
+console.log("restart")
 // start the quiz
 runGame();

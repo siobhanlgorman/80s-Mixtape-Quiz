@@ -197,7 +197,7 @@ main {
 
 .modal-container {
 
-    display: none;
+    /* display: none; */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -242,6 +242,15 @@ main {
     color: #36454F;
 }
 
+#start-again {
+    cursor: pointer;
+}
+#play-again {
+    cursor: pointer;
+}
+
+
+
 @media(min-width : 300px) and (max-width : 576px) {
 
     .quiz-container,
@@ -268,6 +277,8 @@ main {
 
     #back-btn {
         font-size: 0.7rem;
+        /* cursor: pointer; */
+
     }
 
     .question-container {
@@ -287,10 +298,19 @@ main {
         width: 100%;
     }
 
-    .fa-play,
+    /* .fa-play,
     .fa-stop {
         font-size: 3.5rem;
-    }
+        cursor: pointer;
+        
+    } */
+    /* .play-again {
+        cursor: pointer;
+    } */
+    
+    /* #stop-quiz {
+        cursor: pointer;
+    } */
 
 }
 
