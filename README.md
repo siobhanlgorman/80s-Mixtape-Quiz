@@ -36,14 +36,14 @@ The purpose of this online quiz is to entertain people who like 80s music. The q
   * questions can be easily updated
 
 ### Scope
-The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. The project is to be a simple functioning online quiz game with randomly generated multiple choice questions, where the score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially the question pool will be small but sufficient for the user to enjoy the experience.
+The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. The project is to be a simple functioning online quiz game with randomly generated multiple choice questions. The score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially the question pool will be small but sufficient for the user to enjoy the experience. A fun feedback message will be generated to rate the user's final score.
 The purpose of the site will be clear from the landing page and will be visually attractive to the user. The site will be easy to navigate and fully responsive to all sized screens. 
 
 During this phase of the project design test repositories were created to try out visuals and initial features before establishing the final respository.
 
 ### Structure
 
-The user experience design is clear and simple with features positioned conventionally. There is clear navigation between pages signalling a clear pathway throught he site from the home page to the quiz and back to the home page or the quiz start page at the end of the quiz.
+The user experience design is clear and simple with features positioned conventionally. There is clear navigation between pages signalling a clear pathway throught he site from the home page to the quiz and back to the home page or the quiz start page at the end of the quiz. The mouse changes to a pointer to indicate clearly where the user can click for an action.
 
 Home Page
 * Title: the title of the quiz appears on the home page to announce the topic of the quiz. 
@@ -53,37 +53,73 @@ Quiz Page
 * The question is clearly visible in the middle of the quiz play area with the four answer choices underneath. For the smaller screens the answers display on a single column.
 * Above the question?answers is the counter section showing the accumulating number of correct answers and the current question number out of the maimum available questions. Also here is a clear button to stop the quiz and return to the home page.
 * When the user selects the answer the colour of the answer changes to red or green to indicate correct or incorrect before displaying the next question.
+
+Modal
 * When the maximum number of questions is reached the quiz ends and a modal pops up to display the final score and a fun message to rate the user's performance.
 * The modal offers a choice of actions to the user: end the quiz and return to the home page or restart the quiz.
 
 ### Skeleton
-how should the imfo be implemented and how will user navigate through infomration and features priority and positioning
-wireframes
+how should the imfo be implemented and how will user navigate through information and features priority and positioning
+
+The site is deisgned around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. These icons are still considered universally understood.
+
+* Wireframes
+The wireframe design for this application are here:
+
+
 [Wireframes](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/tree/master/wireframes)
+
 ### Surface
-what will the product look like: colours, typography, images, design elements
-Colours - 80s colours - purple, turquoise Used values from [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel)
-Font colour charcoal #36454F
-Favicon
-Background image of cassettes (see credits) to fit the title theme of an eighties mixtape.
-Navigation buttons were styled with icons representing the buttons on a cassette player.
-## Features
+
+* Theme
+The theme of the application is of a mixtape which was popular in the eighties. 
+
+* Background Image
+The background image is of attractive brightly coloured cassette tapes to reflect both the cassette tape theme and the colours popular in this decade.
+
+* Favicon
+A small image of a cassette tape wasa used as a favicon
+
+* Icons
+The icons used for navigation were chosen to resemble the navigation buttons on a cassette player i.e. the triangle for play to start the quiz and the square for stop to return to the home page.
+
+* Colours
+The colours of the site were chosen to tone with the eighties colours of the background image, purples and turquoise (particular favourites of the site author in the eighties!). The background colour of the home page, play area and modal were kept pale to provide enough contrast against the text yet still evoke the colour scheme of the era.
+
+* Font Colour
+The font colour used was charcoal #36454F as it is more gentle on the eye than black.
+
+* Font
+The font selected was Poppins as it has a pleasing rounded look to the user
+
+* Favicon
+
+### Features
 ### Existing Features
 
-Home page
+* Home page
 Play button to navigate to quiz page
-
-Quiz page
+![alt-text](documentation/play_button.png)
+* Quiz page
 Score Counter
+![alt-text](documentation/score_counter.png)
 Question number indicator
+![alt-text](documentation/question_counter.png)
 Stop button - ends quiz by navigating back to home page
+![alt-text](documentation/stop_quiz_button.png)
 Answers turn either red for incorrect answer or green for correct
+![alt-text](documentation/small_green.png)
+![alt-text](documentation/small_red.png)
 
-Modal
+* Modal
 final score
+![alt-text](documentation/final_score.png)
 Special message
-Play again button - closes modal and restarts quiz
+![alt-text](documentation/fun_message.png)
+Play again 
+![alt-text](documentation/play_again.png)button - closes modal and restarts quiz
 Stop button - navigates to home page
+![alt-text](documentation/stop_quiz.png)
 
 
 ### Future Features
@@ -93,16 +129,21 @@ Save high scores
 Indicate correct answer when answer incorrectly - only when sufficient questions
 Audio
 Pictures - varity of questions bradenened - for UX this is text based but add pictures
-
+Rules page
+Something to do on the home page - access previous scores
+Audio
 
 
 
 ### Languages Used
-HTML (Hypertext Markup Language) was used to design the basic website and CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
-Javascript
+* HTML (Hypertext Markup Language) was used to design the basic website and
+* CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
+* Javascript was used to provide interactivity to the application
 
 
 ### Technologies Used
+
+Git and Github for version control
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
@@ -114,6 +155,7 @@ Javascript
 
 [Picresize](https://picresize.com) was used to resize photosthe photo used for the background
 
+Colours - 80s colours - purple, turquoise Used values from [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel)
 
 ## Testing
 ### Validator Testing
