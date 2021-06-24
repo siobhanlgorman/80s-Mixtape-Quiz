@@ -124,14 +124,13 @@ Stop button - navigates to home page
 
 ### Future Features
 
-Save user name 
-Save high scores
-Indicate correct answer when answer incorrectly - only when sufficient questions
-Audio
-Pictures - varity of questions bradenened - for UX this is text based but add pictures
-Rules page
-Something to do on the home page - access previous scores
-Audio
+Future features to add to improve the user interface would be:
+* in order to add features first the question pool would have to be increased and a function added to ensure that questions were not repeated within the play period of the user (currently they are not repeated within the one set of questions)
+* the ability to save the user name and high scores so the user could return to the quiz to beat their own scores. 
+* Currently the questions are all text-based but expanding to include visual questions with pictures would inrease enjoyment for the user.
+* An audio sound on completion of the game would also enhance enjoyment.
+* Given sufficient questions, the correct answer could be indicated when the user enters an incorrect answer.
+* A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page Rules
 
 
 
