@@ -12,6 +12,7 @@ body {
     height: 100%;
 }
 
+/* global font settings */
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
@@ -54,10 +55,9 @@ main {
     align-items: center;
     justify-content: space-around;
     background-color: pink;
-
 }
 
-/* home page link to quiz page */
+/* style home page link to quiz page */
 #home-btn {
     font-size: 2rem;
     font-weight: bold;
@@ -70,19 +70,16 @@ main {
     flex-direction: column;
 }
 
-/* play button icon */
+/* style play and stop button icons */
 .fa-play,
 .fa-stop {
     margin-left: 1rem;
     font-size: 5rem;
 }
 
-#back-btn {
-    font-size: 1rem;
-    color: black;
-}
-
 /* quiz area styling */
+
+
 .quiz-container {
     width: 40rem;
     height: 30rem;
@@ -114,6 +111,14 @@ main {
     padding: 0.25rem;
 }
 
+
+/* style stop button to return to home page */
+#back-btn {
+    font-size: 1rem;
+    color: black;
+}
+
+/* link to home page */
 .counter-container a {
     font-weight: bold;
     border: 2px solid #36454F;
@@ -165,7 +170,6 @@ main {
     flex-direction: row;
     line-height: 1.25;
     align-items: center;
-
 }
 
 /* answer box text styling */
@@ -174,7 +178,6 @@ main {
     cursor: pointer;
     font-weight: 500;
     font-size: 0.9rem;
-
 }
 
 .answer-text {
@@ -217,14 +220,12 @@ main {
     border: 1px solid #888;
     width: 75%;
     border: solid purple 2px;
-
 }
 
 .modal-content p {
     font-size: 1rem;
     padding: 1rem;
     font-weight: bold;
-
 }
 
 #final-message {
@@ -249,56 +250,49 @@ main {
     cursor: pointer;
 }
 
-
-
 @media(min-width : 300px) and (max-width : 576px) {
 
     .quiz-container,
     #home {
-        width: 90%;
-        height: 80vh;
+    width: 90%;
+    height: 80vh;
     }
 
     #home p {
-        padding: 2rem;
+    padding: 2rem;
     }
 
     .counter-container p {
-        font-size: 0.7rem;
-        text-align: center;
-        padding: 0.2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0.2rem;
     }
 
     .counter-container a {
-        font-size: 0.7rem;
-        text-align: center;
-        padding: 0.2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0.2rem;
     }
 
     #back-btn {
-        font-size: 0.7rem;
-        /* cursor: pointer; */
-
+    font-size: 0.7rem;
     }
 
     .question-container {
-        height: 10rem;
+    height: 10rem;
     }
 
     .question-container h1 {
-        font-size: 1rem;
+    font-size: 1rem;
     }
 
     .answers-container {
-        flex-direction: column;
-
+    flex-direction: column;
     }
 
     .answer-box {
-        width: 100%;
+    width: 100%;
     }
-
-    
 }
 
 /* media queries for small tablet */
@@ -306,20 +300,19 @@ main {
 
     .quiz-container,
     #home {
-        width: 90%;
-        height: 80vh;
+    width: 90%;
+    height: 80vh;
     }
 
     .counter-container p {
-        font-size: 1rem;
+    font-size: 1rem;
     }
 
     .question-container {
-        height: 8rem;
+    height: 8rem;
     }
 
     .question-container h1 {
-        font-size: 1rem;
+    font-size: 1rem;
     }
-
 }
