@@ -254,13 +254,13 @@ The following links were tested and functioned as expected:
 * the 'Play Again' button on the modal page returns the user to the start of the quiz with a new question.
 * The Stop button on the modal returns the user to the home page.
 
-The following was also tested and function correctly:
+The following were also tested and function correctly:
 * The modal page pops up at the end of the quiz as expected, correctly displaying the final score and the message corresponding to the final score. 
 * the colours change to the colour correspnding to the answer selected by the user.
 
 
 ### Bugs
-
+The following bugs wer found and squashed: 
 1. Despite the default setting of the modal to not display , the modal diplayed automatically over the quiz page when viewed in the deployed site in Chrome although not in the browser. After examination in Chrome developer tools it was discovered that the semantic container 'section' was causing the override to 'display: block'. When section was replaced by 'div' the problem was removed. 'Div' was then replaced by aside as a more appropriate semantic description for the modal and this also worked perfectly.
 2. It was discovered in testing that clicking on the answer box sometimes produced no response in colour change. This was at first thought to be a 'laggy' response. However on closer examination through Chrome Developer tools the 
 answer text was found to be smaller than the width of the container in many cases resulting in the click having to be on the exact text to produce a response. This was corrected by assigning a width of 100% to the text content.
@@ -297,17 +297,21 @@ Quiz questions adapted from:
 * [The Express](https://www.express.co.uk/entertainment/music/1290366/80s-music-quiz-questions-and-answers)
 * [Smooth Radio](https://www.smoothradio.com/quizzes/1980s-music-trivia-quiz/)
 
+### Code
+* This tutorial by [James Q Quick - Build A Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ) was followed closely for the intial javascript set up and generation of random questions and answers. It was adapted from James' code to better suit this particular design.
 
-The following tutorials were useful as a guide
+The following tutorial was also useful as a guide and is very similar to the above
 * [How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
-* [James Q Quick - Build A Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ)
-On how to use datasets (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
-[Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-timeout function https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
-Designing a modal: [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0); (https://www.w3schools.com/howto/howto_css_modals.asp)
+
+The following reference were used as learning resources
+
+* On how to use data attributes (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
+* [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+* Timeout function https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
+* Designing a modal: [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0); (https://www.w3schools.com/howto/howto_css_modals.asp)
 
 ### Media
-
+* Images
 From [Pixabay](https://pixabay.com/):
 * [Cassettes image](cassette-5986249_1280.jpg) for the background image.  Image by <a href="https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Gordon Johnson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Pixabay</a>
 * [cassette icon](https://icons8.com/icons/set/cassette) from [Icons8](http://www.Icons8.com) for the favicon
