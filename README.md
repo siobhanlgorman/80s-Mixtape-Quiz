@@ -39,17 +39,23 @@ The purpose of this online quiz is to entertain people who like 80s music. The q
 The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. The project is to be a simple functioning online quiz game with randomly generated multiple choice questions, where the score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially the question pool will be small but sufficient for the user to enjoy the experience.
 The purpose of the site will be clear from the landing page and will be visually attractive to the user. The site will be easy to navigate and fully responsive to all sized screens. 
 
-During this phase of the project design test repositories wer created to try out visuals and initial features before establishing the final respository.
+During this phase of the project design test repositories were created to try out visuals and initial features before establishing the final respository.
 
 ### Structure
-how is the information structured how user reaches content. 
-header - title
-Game play area with buttons to start/stop play
-display question with three choices for answer. User can choose one
-submit answer button?
 
-display of correct/incorrect answers
-Sections: welcome screen, start play/first question screen, completed game screen with total score and message. User flow welcome --> play game ---> repeat until 10 questions/end game --> congratulations/message
+The user experience design is clear and simple with features positioned conventionally. There is clear navigation between pages signalling a clear pathway throught he site from the home page to the quiz and back to the home page or the quiz start page at the end of the quiz.
+
+Home Page
+* Title: the title of the quiz appears on the home page to announce the topic of the quiz. 
+* There is one clear call to action button to start the quiz.
+
+Quiz Page
+* The question is clearly visible in the middle of the quiz play area with the four answer choices underneath. For the smaller screens the answers display on a single column.
+* Above the question?answers is the counter section showing the accumulating number of correct answers and the current question number out of the maimum available questions. Also here is a clear button to stop the quiz and return to the home page.
+* When the user selects the answer the colour of the answer changes to red or green to indicate correct or incorrect before displaying the next question.
+* When the maximum number of questions is reached the quiz ends and a modal pops up to display the final score and a fun message to rate the user's performance.
+* The modal offers a choice of actions to the user: end the quiz and return to the home page or restart the quiz.
+
 ### Skeleton
 how should the imfo be implemented and how will user navigate through infomration and features priority and positioning
 wireframes
