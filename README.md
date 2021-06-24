@@ -168,18 +168,18 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 * Chrome Developer Tools was used in resposiveness design and in debugging javascript functions.
 * Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
 
-## Responsiveness
+### Responsiveness
 The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found. The quiz was found not to be compatible with Internet Explorer
 
 The website was tested on numerous sized screens including Iphones 8 and X, Moto G8 plus, 15" laptop, 24" screen and Ipad and was found to respond as expected to all sizes.
 Chrome development tools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
 
-## User Stories Testing
+### User Stories Testing
 
 Each user story was tested as follows:
 
-## Manual Testing
-The quiz was tested by users. Feedback was positive from those with knowledge of the genre. One user reported that the reposnse to user answer was too laggy so the timeout delay for the removal of colour change was reduced from 1.5seconds to 1 second.
+### Manual Testing
+The quiz was tested by users of various ages. Feedback was positive from those with knowledge of the genre. One user reported that the reposnse to user answer was too laggy so the timeout delay for the removal of colour change was reduced from 1.5 seconds to 1 second.
 
 The following links were tested
 The play button on home page - links to quiz page
@@ -205,7 +205,7 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 5. From the source section drop-down menu, select the Master Branch
 6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
 The link to the live website is here:
-[80s-Mixtape-Quiz](https://siobhanlgorman.github.io//)
+[80s-Mixtape-Quiz](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/index.html)
 
 ## Cloning the repository
 1. On Github navigate to the main page of the repository
