@@ -1,4 +1,38 @@
 # Mixtape Quix
+
+![alt-text](documentation/quiz_mockups.png)
+
+- [Mixtape Quix](#mixtape-quix)
+  * [Introduction](#introduction)
+  * [User Experience (UX)](#user-experience--ux-)
+    + [Target Audience](#target-audience)
+    + [User Stories](#user-stories)
+    + [Strategy](#strategy)
+      - [Goals](#goals)
+    + [Scope](#scope)
+    + [Structure](#structure)
+    + [Skeleton](#skeleton)
+    + [Surface](#surface)
+    + [Features](#features)
+    + [Existing Features](#existing-features)
+    + [Future Features](#future-features)
+    + [Languages Used](#languages-used)
+    + [Technologies Used](#technologies-used)
+  * [Testing](#testing)
+    + [Validator Testing](#validator-testing)
+    + [Responsiveness](#responsiveness)
+    + [User Stories Testing](#user-stories-testing)
+    + [Manual Testing](#manual-testing)
+    + [Bugs](#bugs)
+    + [Unfixed Bugs](#unfixed-bugs)
+  * [Deployment](#deployment)
+  * [Cloning the repository and running locally](#cloning-the-repository-and-running-locally)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Code](#code)
+    + [Media](#media)
+
+
 [The live website is here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
 ## Introduction
 The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their final score. The project goal is to provide entertainment through a fun interactive music quiz. I picked eighties music because it's an era that I like myself and also it has undergone a revival and so would be entertaining to different age groups.
