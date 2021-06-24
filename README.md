@@ -128,16 +128,16 @@ Future features to add to improve the user interface would be:
 * in order to add features first the question pool would have to be increased and a function added to ensure that questions were not repeated within the play period of the user (currently they are not repeated within the one set of questions)
 * the ability to save the user name and high scores so the user could return to the quiz to beat their own scores. 
 * Currently the questions are all text-based but expanding to include visual questions with pictures would inrease enjoyment for the user.
-* An audio sound on completion of the game would also enhance enjoyment.
+* An audio sound on completion of the game would also enhance experience.
 * Given sufficient questions, the correct answer could be indicated when the user enters an incorrect answer.
-* A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page Rules
+* A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
 
 
 ### Languages Used
-* HTML (Hypertext Markup Language) was used to design the basic website and
+* HTML (Hypertext Markup Language) was used to design the basic website.
 * CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
-* Javascript was used to provide interactivity to the application
+* Javascript was used to provide interactivity to the application.
 
 
 ### Technologies Used
@@ -146,15 +146,13 @@ Git and Github for version control
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
-[Google Fonts](https://fonts.google.com) was used for the fonts: Poppins and Lora.
+[Google Fonts](https://fonts.google.com) was used for the font: Poppins
 
 [Fontawesome](https://fontawesome.com) was used for the social media icons, map link and the arrow back to top.
 
-[Google maps](https://www.google.com/maps) was used to provide a map link.
+[Picresize](https://picresize.com) and [Squoosh](https://squoosh.app/) were used to resize the photo used for the background
 
-[Picresize](https://picresize.com) was used to resize photosthe photo used for the background
-
-Colours - 80s colours - purple, turquoise Used values from [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel)
+For the 80s colours paletter - purple, pink, and turquoise tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
 
 ## Testing
 ### Validator Testing
@@ -194,13 +192,13 @@ have to click on actual text for click to be recognised need whole box to be rec
 ## Deployment
 The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 1. Log in to [Github](https://github.com/)
-2. Navigate to [siobhanlgorman/sourdoughbakes](https://github.com/siobhanlgorman/Sourdough-Bakes) in the list of repositories
-3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/Sourdough-Bakes/settings) tab
-4. In Settings scroll down to [GitHub pages](https://github.com/siobhanlgorman/Sourdough-Bakes/settings/pages) which opens in a new page.
+2. Navigate to [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz) in the list of repositories
+3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab
+4. In Settings scroll down to [GitHub pages](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings/pages) which opens in a new page.
 5. From the source section drop-down menu, select the Master Branch
 6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
 The link to the live website is here:
-[Sourdough Bakes](https://siobhanlgorman.github.io//)
+[80s-Mixtape-Quiz](https://siobhanlgorman.github.io//)
 
 ## Cloning the repository
 1. On Github navigate to the main page of the repository
@@ -228,8 +226,9 @@ On how to use datasets (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howt
 [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 timeout function https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
 Designing a modal: [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0); (https://www.w3schools.com/howto/howto_css_modals.asp)
+
 ### Media
 
 From [Pixabay](https://pixabay.com/):
-* [Cassettes image](cassette-5986249_1280.jpg) Image by <a href="https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Gordon Johnson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Pixabay</a>
-* [cassette icon](https://icons8.com/icons/set/cassette)
+* [Cassettes image](cassette-5986249_1280.jpg) for the background image.  Image by <a href="https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Gordon Johnson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Pixabay</a>
+* [cassette icon](https://icons8.com/icons/set/cassette) from [Icons8](http://www.Icons8.com) for the favicon
