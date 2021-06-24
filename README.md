@@ -29,21 +29,18 @@ As a new user I want to
 * easily see what the quiz topic is
 
 ### Strategy 
-The purpose of this online quiz is to entertain people who like 80s music. 
+The purpose of this online quiz is to entertain people who like 80s music. The quiz should be easy for the user to navigate across the different pages and return to the homw page or restart the quiz. It should initially be a simple design to which features can be added as popularity grows.  
 
 #### Goals
   * to provide an entertaining interactive application
-  * 
+  * questions can be easily updated
 
 ### Scope
-minimal viable features which can be added to in the future. Simple clear Javascipt functions with the single responsibility approach ie one function one job. A simple online quiz with randomly generated multiple choice questions, accumulating score up to 10. A message for the final score.
-what features based on strategy do you want to include 
-  * functioning quiz with sufficient questions for initial release
-  * responsive design
-  * clear and easy to navigate
-  * visually attractive
-Future features
-Tried out some ideas for the structure on two test repositories while watching some tutorials and then used parts of these for the project repository
+The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. The project is to be a simple functioning online quiz game with randomly generated multiple choice questions, where the score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially the question pool will be small but sufficient for the user to enjoy the experience.
+The purpose of the site will be clear from the landing page and will be visually attractive to the user. The site will be easy to navigate and fully responsive to all sized screens. 
+
+During this phase of the project design test repositories wer created to try out visuals and initial features before establishing the final respository.
+
 ### Structure
 how is the information structured how user reaches content. 
 header - title
@@ -61,6 +58,7 @@ wireframes
 what will the product look like: colours, typography, images, design elements
 Colours - 80s colours - purple, turquoise Used values from [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel)
 Font colour charcoal #36454F
+Favicon
 Background image of cassettes (see credits) to fit the title theme of an eighties mixtape.
 Navigation buttons were styled with icons representing the buttons on a cassette player.
 ## Features
@@ -87,7 +85,8 @@ Stop button - navigates to home page
 Save user name 
 Save high scores
 Indicate correct answer when answer incorrectly - only when sufficient questions
-
+Audio
+Pictures - varity of questions bradenened - for UX this is text based but add pictures
 
 
 
