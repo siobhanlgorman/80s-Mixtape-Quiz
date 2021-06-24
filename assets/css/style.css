@@ -65,7 +65,7 @@ main {
     width: 30rem;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #36454F;
     display: flex;
     flex-direction: column;
 }
