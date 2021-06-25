@@ -6,16 +6,17 @@
   * [Introduction](#introduction)
   * [User Experience (UX)](#user-experience--ux-)
     + [Target Audience](#target-audience)
-    + [User Stories](#user-stories)
     + [Strategy](#strategy)
       - [Goals](#goals)
     + [Scope](#scope)
+      - [User Stories](#user-stories)
     + [Structure](#structure)
     + [Skeleton](#skeleton)
+      - [Wireframes]
     + [Surface](#surface)
     + [Features](#features)
-    + [Existing Features](#existing-features)
-    + [Future Features](#future-features)
+      - [Existing Features](#existing-features)
+      - [Future Features](#future-features)
     + [Languages Used](#languages-used)
     + [Technologies Used](#technologies-used)
   * [Testing](#testing)
@@ -26,7 +27,7 @@
     + [Bugs](#bugs)
     + [Unfixed Bugs](#unfixed-bugs)
   * [Deployment](#deployment)
-  * [Cloning the repository and running locally](#cloning-the-repository-and-running-locally)
+  * [Cloning the repository](#cloning-the-repository)
   * [Credits](#credits)
     + [Content](#content)
     + [Code](#code)
@@ -44,7 +45,19 @@ The goal is to create an entertaining web-based music trivia quiz. I picked eigh
 ### Target Audience
 The quiz targets people of all ages who enjoy quizzes and are specifically interested in music of the eighties.
 
-### User Stories
+
+### Strategy 
+The purpose of this online quiz is to entertain people who like 80s music. The quiz should be easy for the user to navigate across the different pages and return to the homw page or restart the quiz. It should initially be a simple design to which features can be added as popularity grows.  
+
+#### Goals
+  * to provide an entertaining interactive application
+  * questions can be easily updated
+
+### Scope
+The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. The project is to be a simple functioning online quiz game with randomly generated multiple choice questions. The score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially the question pool will be small but sufficient for the user to enjoy the experience. A fun feedback message will be generated to rate the user's final score.
+The purpose of the site will be clear from the landing page and will be visually attractive to the user. The site will be easy to navigate and fully responsive to all sized screens. 
+
+#### User Stories
 As the site owner I want to:
 * create an entertaining interactive quiz on the topic of eighties music trivia
 
@@ -61,17 +74,6 @@ As a general user I want to:
 
 As a new user I want to 
 * easily see what the quiz topic is
-
-### Strategy 
-The purpose of this online quiz is to entertain people who like 80s music. The quiz should be easy for the user to navigate across the different pages and return to the homw page or restart the quiz. It should initially be a simple design to which features can be added as popularity grows.  
-
-#### Goals
-  * to provide an entertaining interactive application
-  * questions can be easily updated
-
-### Scope
-The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. The project is to be a simple functioning online quiz game with randomly generated multiple choice questions. The score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially the question pool will be small but sufficient for the user to enjoy the experience. A fun feedback message will be generated to rate the user's final score.
-The purpose of the site will be clear from the landing page and will be visually attractive to the user. The site will be easy to navigate and fully responsive to all sized screens. 
 
 During this phase of the project design test repositories were created to try out visuals and initial features before establishing the final respository.
 
@@ -95,9 +97,9 @@ Modal
 ### Skeleton
 how should the imfo be implemented and how will user navigate through information and features priority and positioning
 
-The site is deisgned around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. These icons are still considered universally understood.
+The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. These icons are still considered universally understood.
 
-* Wireframes
+#### Wireframes
 The wireframe design for this application are here:
 
 [Wireframes](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/tree/master/wireframes)
@@ -128,7 +130,7 @@ The font selected was Poppins as it has a pleasing rounded look to the user
 * Favicon
 
 ### Features
-### Existing Features
+## Existing Features
 
 * Home page
 Play button to navigate to quiz page
@@ -155,7 +157,7 @@ Stop button - navigates to home page
 ![alt-text](documentation/stop_quiz.png)
 
 
-### Future Features
+## Future Features
 
 Future features to add to improve the user interface would be:
 * In order to add features first the question pool would have to be increased and a function added to ensure that questions were not repeated within the play period of the user (currently they are not repeated within the one set of questions)
