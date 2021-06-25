@@ -253,7 +253,9 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 
 
 * Chrome Developer Tools was used in responsiveness design and extensively in debugging javascript functions. 
-* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning. An apple touch icon and link was also added to fix this issue. No other significant errors were found. 
+* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning.
+
+An apple touch icon and link was also added to fix a warning regarding this issue. No other significant errors were found. 
 
 ![alt-text](documentation/lighthouse2.png)
 
@@ -269,6 +271,8 @@ The website was tested primarily on Chrome through the design phase. Additional 
 
 
 * Safari: 
+
+![alt-text](documentation/safari.png)
 
 However performance was poor on Internet Explorer:
 
