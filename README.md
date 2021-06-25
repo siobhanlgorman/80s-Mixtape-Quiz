@@ -139,7 +139,7 @@ The font colour used was charcoal #36454F as it is more gentle on the eye than b
 
 * Font
 
-The font selected was Poppins as it has a pleasing rounded look to the user, is clear and legible.
+The font selected was [Poppins](https://fonts.google.com/specimen/Poppins) as it has a pleasing rounded look to the user, is clear and legible.
 
 
 ### Features
@@ -420,18 +420,18 @@ The following tutorial was also useful as a guide and is very similar to the abo
 
 The following references were used as learning resources
 
-* On how to use data attributes (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
+* [On how to use data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 * [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* [Timeout function] (https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout)
-* Designing a modal: [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0); (https://www.w3schools.com/howto/howto_css_modals.asp)
+* [Timeout function](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout)
+* [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0) and [how to make CSS/JS modals](https://www.w3schools.com/howto/howto_css_modals.asp)
 
 The following were used as references to check syntax for coding and for general queries:
 
-[w3 schools](https://www.w3schools.com/)
-[stackoverflow](https://stackoverflow.com/)
+* [w3 schools](https://www.w3schools.com/)
+* [stackoverflow](https://stackoverflow.com/)
 
 ### Media
 * Images
 From [Pixabay](https://pixabay.com/):
-* [Cassettes image](cassette-5986249_1280.jpg) for the background image.  Image by <a href="https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Gordon Johnson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5986249">Pixabay</a>
+* [Cassette image for the background image by Gordon Johnson](https://pixabay.com/vectors/cassette-pattern-colorful-5986249)
 * [cassette icon](https://icons8.com/icons/set/cassette) from [Icons8](http://www.Icons8.com) for the favicon
