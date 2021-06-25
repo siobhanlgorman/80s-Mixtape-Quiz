@@ -107,9 +107,16 @@ The site is designed around the theme of a mixtape, popular in the eighties. The
 All text areas are contained in boxes and are centred on the screen for a positive user experience.
 
 #### Wireframes
-The initial wireframe designs for this application can be seen here:
+The initial wireframe designs folder for this application can be seen here:
 
 [Wireframes](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/tree/master/wireframes)
+
+![alt-text](documentation/laptop1.png)
+
+![alt-text](documentation/tablet1.png)
+
+![alt-text](documentation/mobile1.png)
+
 
 ### Surface
 
