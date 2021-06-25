@@ -146,27 +146,47 @@ The font selected was Poppins as it has a pleasing rounded look to the user, is 
 ## Existing Features
 
 * Home page
+
 Play button to navigate to quiz page
+
 ![alt-text](documentation/play_button.png)
+
 * Quiz page
+
 Score Counter
+
 ![alt-text](documentation/score_counter.png)
+
 Question number indicator
+
 ![alt-text](documentation/question_counter.png)
+
 Stop button - ends quiz by navigating back to home page
+
 ![alt-text](documentation/stop_quiz_button.png)
+
 Answers turn either red for incorrect answer or green for correct
+
 ![alt-text](documentation/small_green.png)
+
 ![alt-text](documentation/small_red.png)
 
 * Modal
+
 final score
+
 ![alt-text](documentation/final_score.png)
+
 Special message
+
 ![alt-text](documentation/fun_message.png)
-Play again 
-![alt-text](documentation/play_again.png)button - closes modal and restarts quiz
+
+Play again button - closes modal and restarts quiz
+
+![alt-text](documentation/play_again.png)
+
 Stop button - navigates to home page
+
 ![alt-text](documentation/stop_quiz.png)
 
 The mouse changes to a pointer to indicate clearly where the user can click for an action.
