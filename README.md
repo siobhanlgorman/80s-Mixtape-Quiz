@@ -156,25 +156,25 @@ The font selected was [Poppins](https://fonts.google.com/specimen/Poppins) as it
 
 * [Home page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/index.html)
 
-Play button to navigate to quiz page
+On the home page there is a 'Play' button to navigate to the quiz page:
 
 ![alt-text](documentation/play_button.png)
 
 * [Quiz page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/quiz.html)
 
-Score Counter
+On the quiz page there is a 'Score Counter' to show the user's current score as they progress through the quiz:
 
 ![alt-text](documentation/score_counter.png)
 
-Question number indicator
+There is also a 'Question number' indicator above the question to show the user which question they are currently answering and how many questions there are in total:
 
 ![alt-text](documentation/question_counter.png)
 
-Stop button - ends quiz by navigating back to home page
+On the right of the question number box there is a 'Stop' button giving the user the option to end the quiz by navigating back to home page:
 
 ![alt-text](documentation/stop_quiz_button.png)
 
-Answers turn either red for incorrect answer or green for correct
+When the user selects an answer by clicking the answer turns either red for incorrect or green for correct and remains coloured for one second before a new question is generated:
 
 ![alt-text](documentation/small_green.png)
 
@@ -182,23 +182,23 @@ Answers turn either red for incorrect answer or green for correct
 
 * Modal
 
-final score
+When the maximum number of questions have been answered the modal pops up and the final score is displayed:
 
 ![alt-text](documentation/final_score.png)
 
-Special message
+The modal also displays one of three special fun messages which relate to the user's final score:
 
 ![alt-text](documentation/fun_message.png)
 
-Play again button - closes modal and restarts quiz
+Below the message a 'Play Again' button closes the modal and restarts quiz:
 
 ![alt-text](documentation/play_again.png)
 
-Stop button - navigates to home page
+Below the 'Play Again' button is a 'Stop' button which gives users the option to end the quiz by closing the modal and navigating back to the home page:
 
 ![alt-text](documentation/stop_quiz.png)
 
-The mouse changes to a pointer to indicate clearly where the user can click for an action.
+The mouse changes to a pointer on all the clickable buttons and answer option to indicate clearly where the user can click for an action.
 
 ### Future Features
 
