@@ -193,8 +193,8 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 * [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found
 * [CSS Validator](https://validator.w3.org/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
 * [JS Hint](https://jshint.com/) was used to check the two javascript files. One unused variable refers to the variable questions which is declared in the quiz questions file.
-* Chrome Developer Tools was used in resposiveness design and in debugging javascript functions.
-* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
+* Chrome Developer Tools was used in responsiveness design and extensively in debugging javascript functions. 
+* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning. An apple touch icon and link was also added to fix this issue.No other significant errors were found.
 
 ### Responsiveness
 The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found and good performance. However performance was poor on Internet Explorer
@@ -338,7 +338,7 @@ Most questions were written by this author with inspiration and some questions a
 The following tutorial was also useful as a guide and is very similar to the above
 * [How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 
-The following reference were used as learning resources
+The following references were used as learning resources
 
 * On how to use data attributes (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 * [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
