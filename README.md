@@ -29,7 +29,7 @@
   * [Forking and Cloning the repository](#forking-and-cloning-the-repository)
     + [Forking](#forking)
     + [Making a Local Clone](#making-a-local-clone)
-    * [Credits](#credits)
+  * [Credits](#credits)
     + [Content](#content)
     + [Code](#code)
     + [Media](#media)
@@ -221,7 +221,7 @@ Future features to add to improve the user interface would be:
 
 Git was used for version control. 
 
-Gitpod was used for the IDE
+[Gitpod](https://www.gitpod.io/) was used for the IDE
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
