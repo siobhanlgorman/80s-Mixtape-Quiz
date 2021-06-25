@@ -49,15 +49,15 @@ As the site owner I want to:
 * create an entertaining interactive quiz on the topic of eighties music trivia
 
 As a general user I want to:
-* play a fun quiz
-* navigate easily around the application
-* easily see what question number I am on
-* answer challenging questions on the topic
-* easily see if my answer is right or wrong
-* view my final score
-* easily restart the game after I finish
-* be rated on my knowledge of the subject
-* be able to use the application on different sized screens
+1. play a fun quiz
+2. navigate easily around the application
+3. easily see what question number I am on
+4. answer challenging questions on the topic
+5. easily see if my answer is right or wrong
+6. view my final score
+7. easily restart the game after I finish
+8. be rated on my knowledge of the subject
+9. be able to use the application on different sized screens
 
 As a new user I want to 
 * easily see what the quiz topic is
