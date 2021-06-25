@@ -87,11 +87,11 @@ During this phase of the project design test repositories were created to try ou
 
 The user experience design is clear and simple with features positioned conventionally. Navigation items are clearly visible on each page signalling the pathway through the site from the home page through the quiz ending at the modal. From there the user can navigate back to the home page or to the quiz start page. 
 
-Home Page
+[Home Page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
 * Title: the title of the quiz appears on the home page to announce the topic of the quiz. 
 * There is one clear call to action button to start the quiz.
 
-Quiz Page
+[Quiz Page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/quiz.html)
 * The question is clearly visible in the middle of the quiz play area with the four answer choices underneath. For the smaller screens the answers display on a single column.
 * Above the question and answer section is the counter section showing the accumulating number of correct answers and the current question number out of the maimum available questions. Also here is a clear button to stop the quiz and return to the home page.
 * When the user selects the answer the colour of the answer changes to red or green to indicate correct or incorrect before displaying the next question.
