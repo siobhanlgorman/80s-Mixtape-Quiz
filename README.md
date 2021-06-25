@@ -35,7 +35,7 @@
     + [Media](#media)
 
 
-[The live website can be viewed here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
+The live website can be viewed [here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
 ## Introduction
 The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their final score. 
 
