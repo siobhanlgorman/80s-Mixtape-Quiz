@@ -393,13 +393,13 @@ The quiz was tested by users of various ages. Feedback was overall positive from
 The following functioned as intended:
 * Questions and corresponding answers generated correctly in their boxes
 * Questions and corresponding answers generated randomly and did not repeat within each game of six questions.
-* the colours change to the colour corresponding to the correct/incorrect answer selected by the user.
+* The colours change to the colour corresponding to the correct/incorrect answer selected by the user.
 
 The following links were tested and functioned as expected:
 
 * The play button on the home page links to the quiz page
 * The stop button on quiz page exits the quiz and returns the user to the home page
-* the play again button on the modal page returns the user to the start of the quiz with a new question.
+* The play again button on the modal page returns the user to the start of the quiz with a new question.
 * The stop button on the modal returns the user to the home page.
 
 The following were also tested and function correctly:
