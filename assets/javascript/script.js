@@ -33,13 +33,14 @@ function displayQuestion() {
     displayedQuestion = questionArray[questionIndex];
     question.innerText = displayedQuestion.question;
     options.forEach(function (option) {
-      const number = option.dataset["number"];
+      const number = option.dataset.number;
       option.innerText = displayedQuestion["option" + number];
     });
     questionArray.splice(questionIndex, 1);
     answersAllowed = true;
   }
 }
+
 // checks whether user answer correct/incorrect, apply red/green background and delay colour removal
 options.forEach(function (option) {
   option.addEventListener('click', function (event) {
@@ -94,7 +95,7 @@ function endGameMessage() {
 playAgain.forEach(function (playLink)  {
   playLink.addEventListener('click', function (event) {
     modal.style.display = "none";
-    runGame();
+  runGame();
       });
 });
 

@@ -1,8 +1,8 @@
-# Mixtape Quix
+# Mixtape Quiz
 
 ![alt-text](documentation/quiz_mockups.png)
 
-- [Mixtape Quix](#mixtape-quix)
+- [Mixtape Quiz](#mixtape-quix)
   * [Introduction](#introduction)
   * [User Experience (UX)](#user-experience--ux-)
     + [Target Audience](#target-audience)
@@ -210,7 +210,9 @@ Future features to add to improve the user interface would be:
 
 ### Technologies Used
 
-Git was used for version control
+Git was used for version control. 
+
+Gitpode was used for the IDE
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
@@ -342,10 +344,10 @@ The following were also tested and function correctly:
 
 
 ### Bugs
-The following bugs wer found and squashed: 
-1. Despite the default setting of the modal to not display , the modal diplayed automatically over the quiz page when viewed in the deployed site in Chrome although not in the browser. After examination in Chrome developer tools it was discovered that the semantic container 'section' was causing the override to 'display: block'. When section was replaced by 'div' the problem was removed. 'Div' was then replaced by aside as a more appropriate semantic description for the modal and this also worked perfectly.
+The following bugs were found and squashed: 
+1. Despite the default setting of the modal to not display , the modal diplayed automatically over the quiz page when viewed in the deployed site in Chrome although not in the browser. After examination in Chrome developer tools it was discovered that the semantic container `section` was causing the override to `display: block`. When section was replaced by 'div' the problem was removed. 'Div' was then replaced by aside as a more appropriate semantic description for the modal and this also worked perfectly.
 2. It was discovered in testing that clicking on the answer box sometimes produced no response in colour change. This was at first thought to be a 'laggy' response. However on closer examination through Chrome Developer tools the 
-answer text was found to be smaller than the width of the container in many cases resulting in the click having to be on the exact text to produce a response. This was corrected by assigning a width of 100% to the text content.
+answer text was found to be smaller than the width of the container in many cases resulting in the click having to be on the exact text to produce a response. This was corrected by assigning a `width: 100%` to the text content.
 3. In the final testing stages it was observed that when hovering over the 'play again' button and text in the modal the cursor did not change to a pointer. Initial examination of the css code highlighted an issue with class and id assignments. However these corrections resulted in the function to restart the game only working for the icon and not the text. One solution was to duplicate the onclick function for the text worked but this resulted in cumbersome javascript. The final cleaner solution was to apply a query selector to both elements and then loop through this array and apply an eventlistener for the click to both.
 
 ### Unfixed Bugs
@@ -354,7 +356,8 @@ There are no known outstanding bugs.
 The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 1. Log in to [Github](https://github.com/)
 2. Navigate to [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz) in the list of repositories
-3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab
+3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab or copy this link:
+* 
 4. In Settings scroll down to [GitHub pages](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings/pages) which opens in a new page.
 5. From the source section drop-down menu, select the Master Branch
 6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
@@ -390,7 +393,7 @@ The following references were used as learning resources
 
 * On how to use data attributes (https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 * [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* Timeout function https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
+* [Timeout function] (https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout)
 * Designing a modal: [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0); (https://www.w3schools.com/howto/howto_css_modals.asp)
 
 The following were used as references to check syntax for coding and for general queries:
