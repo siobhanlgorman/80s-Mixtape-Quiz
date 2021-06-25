@@ -305,5 +305,4 @@ let questions = [{
     option4: "Ian Curtis",
     answer: "2"
     },
-   
 ];

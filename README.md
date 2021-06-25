@@ -212,7 +212,7 @@ Future features to add to improve the user interface would be:
 
 Git was used for version control. 
 
-Gitpode was used for the IDE
+Gitpod was used for the IDE
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
@@ -231,11 +231,28 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 
 ## Testing
 ### Validator Testing
-* [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found
+* [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+
+![alt-text](documentation/html_validation.png)
+
+
 * [CSS Validator](https://validator.w3.org/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
-* [JS Hint](https://jshint.com/) was used to check the two javascript files. One unused variable refers to the variable questions which is declared in the quiz questions file.
+
+![alt-text](documentation/css_validation.png)
+
+* [JS Hint](https://jshint.com/) was used to check the two javascript files. The only issue is "one unused variable" which refers to the variable `questions` which is declared in the separate quiz questions javascript file.
+
+![alt-text](documentation/jshint_undef.png)
+
+
 * Chrome Developer Tools was used in responsiveness design and extensively in debugging javascript functions. 
 * Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning. An apple touch icon and link was also added to fix this issue. No other significant errors were found. 
+
+![alt-text](documentation/lighthouse2.png)
+
+
+
+
 
 ### Responsiveness
 The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found and good performance. However performance was poor on Internet Explorer
