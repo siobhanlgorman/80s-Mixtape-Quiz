@@ -240,7 +240,7 @@ For the 80s colours palette - purple rgb(128, 0, 128) rgba(128, 0, 128, 0.5), pi
 
 ## Testing
 ### Validator Testing
-* [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+* [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors were identified and fixed. At the final stage no errors or warnings were found.
 
 ![alt-text](documentation/html_validation.png)
 
@@ -255,9 +255,9 @@ For the 80s colours palette - purple rgb(128, 0, 128) rgba(128, 0, 128, 0.5), pi
 
 
 * Chrome Developer Tools was used in responsiveness design and extensively in debugging javascript functions. 
-* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning.
-
-An apple touch icon and link was also added to fix a warning regarding this issue. No other significant errors were found. 
+* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. 
+  * Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning.
+  * An apple touch icon and link was also added to fix a warning regarding this issue. No other significant errors were found. 
 
 ![alt-text](documentation/lighthouse2.png)
 
