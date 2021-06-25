@@ -249,7 +249,7 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 
 ![alt-text](documentation/css_validation.png)
 
-* [JS Hint](https://jshint.com/) was used to check the two javascript files. The only issue is "one unused variable" which refers to the variable `questions` which is declared in the separate quiz questions javascript file.
+* [JS Hint](https://jshint.com/) was used to check the two javascript files. The only issue is "one unused variable" which refers to the variable `questions` which is declared in the separate quiz questions JavaScript file.
 
 ![alt-text](documentation/jshint_undef.png)
 
