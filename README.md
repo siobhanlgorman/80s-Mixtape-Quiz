@@ -13,11 +13,11 @@
     + [Skeleton](#skeleton)
       - [Wireframes](#wireframes)
     + [Surface](#surface)
-    + [Features](#features)
-      - [Existing Features](#existing-features)
-      - [Future Features](#future-features)
-    + [Languages Used](#languages-used)
-    + [Technologies Used](#technologies-used)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+    + [Future Features](#future-features)
+  * [Languages Used](#languages-used)
+  * [Technologies Used](#technologies-used)
   * [Testing](#testing)
     + [Validator Testing](#validator-testing)
     + [Responsiveness](#responsiveness)
@@ -149,8 +149,8 @@ The font colour used was charcoal #36454F as it is more gentle on the eye than b
 The font selected was [Poppins](https://fonts.google.com/specimen/Poppins) as it has a pleasing rounded look to the user, is clear and legible.
 
 
-### Features
-## Existing Features
+## Features
+### Existing Features
 
 * [Home page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/index.html)
 
@@ -198,7 +198,7 @@ Stop button - navigates to home page
 
 The mouse changes to a pointer to indicate clearly where the user can click for an action.
 
-## Future Features
+### Future Features
 
 Future features to add to improve the user interface would be:
 * In order to add features first the question pool would have to be increased and a function added to ensure that questions were not repeated within the play period of the user (currently they are not repeated within the one set of questions)
@@ -209,13 +209,13 @@ Future features to add to improve the user interface would be:
 * Given sufficient questions, a list of questions answered correctly and incorrectly could be generated at the end of the quiz.
 * A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
-### Languages Used
+## Languages Used
 * HTML (Hypertext Markup Language) was used to design the basic website.
 * CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
 * Javascript was used to provide interactivity to the application.
 
 
-### Technologies Used
+## Technologies Used
 
 Git was used for version control. 
 
