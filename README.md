@@ -369,14 +369,14 @@ The quiz title and topic are clearly displayed on the landing page
 
 ### Manual Testing
 The quiz was tested by users of various ages. Feedback was overall positive from users. The following constructive feedback was used to make improvements. 
-* One user reported that the reponse to the user click on the answer was too laggy so the timeout delay for the removal of colour change was reduced from 1.5 seconds to 1 second.
-* A link 'x' with a function to close the modal was removed for the final version it became superflous after a stop quiz and play again buttons were added and no other option is available to close the modal.
+* One user reported that the reponse to the user click on the answer was'laggy' so the timeout delay for the removal of colour change was reduced from 1.5 seconds to 1 second.
+* An x link with a function to close the modal was removed for the final version it became superflous after a stop quiz and play again buttons were added and no other option is available to close the modal.
 
 The following links were tested and functioned as expected:
 * The play button on the home page links to the quiz page
 * The stop button on quiz page exits the quiz and returns the user to the home page
-* the 'Play Again' button on the modal page returns the user to the start of the quiz with a new question.
-* The Stop button on the modal returns the user to the home page.
+* the play again button on the modal page returns the user to the start of the quiz with a new question.
+* The stop button on the modal returns the user to the home page.
 
 The following were also tested and function correctly:
 * The modal page pops up at the end of the quiz as expected, correctly displaying the final score and the message corresponding to the final score. 
@@ -385,10 +385,10 @@ The following were also tested and function correctly:
 
 ### Bugs
 The following bugs were found and squashed: 
-1. Despite the default setting of the modal to not display , the modal diplayed automatically over the quiz page when viewed in the deployed site in Chrome although not in the browser. After examination in Chrome developer tools it was discovered that the semantic container `section` was causing the override to `display: block`. When section was replaced by 'div' the problem was removed. 'Div' was then replaced by aside as a more appropriate semantic description for the modal and this also worked perfectly.
+1. Despite the default setting of the modal to not display , the modal diplayed automatically over the quiz page when viewed in the deployed site in Chrome although not in the browser. After examination in Chrome developer tools it was discovered that the semantic container `section` was causing the override to `display: block`. When section was replaced by `div` the problem was removed.`Div` was then replaced by aside as a more appropriate semantic description for the modal and this also worked perfectly.
 2. It was discovered in testing that clicking on the answer box sometimes produced no response in colour change. This was at first thought to be a 'laggy' response. However on closer examination through Chrome Developer tools the 
 answer text was found to be smaller than the width of the container in many cases resulting in the click having to be on the exact text to produce a response. This was corrected by assigning a `width: 100%` to the text content.
-3. In the final testing stages it was observed that when hovering over the 'play again' button and text in the modal the cursor did not change to a pointer. Initial examination of the css code highlighted an issue with class and id assignments. However these corrections resulted in the function to restart the game only working for the icon and not the text. One solution was to duplicate the onclick function for the text worked but this resulted in cumbersome javascript. The final cleaner solution was to apply a query selector to both elements and then loop through this array and apply an eventlistener for the click to both.
+3. In the final testing stages it was observed that when hovering over the play again button and text in the modal the cursor did not change to a pointer. Initial examination of the css code highlighted an issue with class and id assignments. However these corrections resulted in the function to restart the game only working for the icon and not the text. One solution was to duplicate the onclick function for the text worked but this resulted in cumbersome javascript. The final cleaner solution was to apply a query selector to both elements and then loop through this array and apply an eventlistener for the click to both.
 
 ### Unfixed Bugs
 There are no known outstanding bugs.
