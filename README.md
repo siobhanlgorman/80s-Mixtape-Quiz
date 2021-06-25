@@ -297,31 +297,38 @@ The quiz was tested by a variety of friends and family who complimented the look
 
 As a general user I want to:
 1. play a fun quiz
+
 The welcome page with its brightly coloured image of cassettes inspires a positive emotional reponse in users and they anticipate a fun quiz. The title is prominent and clearly shows the topic of the quiz. The theme is comprehensively supported by the image and colours. The large play call to action button invites users to start the quiz. 
 
 ![alt-text](documentation/home_mob.png)
 
 2. navigate easily around the application
+
 Navigation buttons are clearly displayed on each page. The icons are styled in keeping with the cassette theme and are minimal which keeps the user flow through the site clear. On the home page there is one call to action button prominently displayed which links to the quiz page and invites the user to start the quiz.
 
 ![alt-text](documentation/play_button.png)
 
 At the top of the quiz play area there is a button to stop the quiz and return to the home page.
+
 ![alt-text](documentation/stop_quiz_button.png)
 
 On the modal page there are two prominent navigation buttons offering the user a choice of playing again or ending and returning to the home page.
+
 ![alt-text](documentation/play_again.png)
+
 ![alt-text](documentation/stop_quiz.png)
 
 
 3. clearly see what question number I am on
 
 At the top of the quiz play area there is a question number section showing the current question number and the total to be asked.
+
 ![alt-text](documentation/question_counter.png)
 
 4. answer reasonably challenging questions on the topic
 
 The question collection features a variety of questions which test a wide range of musical knowledge from different genres of the eighties.
+
 ![alt-text](documentation/quiz_question.png)
 
 5. see immediately if my answer is right or wrong
@@ -329,6 +336,7 @@ The question collection features a variety of questions which test a wide range 
 The answer box turns red if the user clicks a wrong answer and green if it is correct.
 
 ![alt-text](documentation/red_answer.png)
+
 ![alt-text](documentation/small_green.png)
 
 6. see my score accumulating
@@ -339,12 +347,15 @@ At the top of the quiz play area is a box indicating the current score and the m
 
 
 7. view my final score
+
 At the end of the quiz a modal pops up which displays the user's final score
+
 ![alt-text](documentation/final_score.png)
 
 8. easily restart the game after I finish
 
 The modal offers the user the opportunity to restart the quiz
+
 ![alt-text](documentation/modal_mobile.png)
 
 
@@ -359,37 +370,44 @@ When the quiz ends the modal pops up and displays a fun message rating the user'
 The image responds to different screen sizes with the game play area and modal in a central position and the answer choices moving from 2 rows on a large and medium screen to one column on smaller screens.
 
 ![alt-text](documentation/quiz_tab.png)
+
 ![alt-text](documentation/quiz_mobile.png)
 
 
 As a new user I want to 
 * easily see what the quiz topic is
+
 The quiz title and topic are clearly displayed on the landing page
+
 ![alt-text](documentation/home_tab.png)
 
 
 
 ### Manual Testing
+
 The quiz was tested by users of various ages. Feedback was overall positive from users. The following constructive feedback was used to make improvements. 
+
 * One user reported that the reponse to the user click on the answer was'laggy' so the timeout delay for the removal of colour change was reduced from 1.5 seconds to 1 second.
 * An x link with a function to close the modal was removed for the final version it became superflous after a stop quiz and play again buttons were added and no other option is available to close the modal.
 
 The following links were tested and functioned as expected:
+
 * The play button on the home page links to the quiz page
 * The stop button on quiz page exits the quiz and returns the user to the home page
 * the play again button on the modal page returns the user to the start of the quiz with a new question.
 * The stop button on the modal returns the user to the home page.
 
 The following were also tested and function correctly:
+
 * The modal page pops up at the end of the quiz as expected, correctly displaying the final score and the message corresponding to the final score. 
-* the colours change to the colour correspnding to the answer selected by the user.
+* the colours change to the colour corresponding to the answer selected by the user.
 
 
 ### Bugs
 The following bugs were found and squashed: 
-1. Despite the default setting of the modal to not display , the modal diplayed automatically over the quiz page when viewed in the deployed site in Chrome although not in the browser. After examination in Chrome developer tools it was discovered that the semantic container `section` was causing the override to `display: block`. When section was replaced by `div` the problem was removed.`Div` was then replaced by aside as a more appropriate semantic description for the modal and this also worked perfectly.
-2. It was discovered in testing that clicking on the answer box sometimes produced no response in colour change. This was at first thought to be a 'laggy' response. However on closer examination through Chrome Developer tools the 
-answer text was found to be smaller than the width of the container in many cases resulting in the click having to be on the exact text to produce a response. This was corrected by assigning a `width: 100%` to the text content.
+
+1. Despite the default setting of the modal to not display , the modal diplayed automatically over the quiz page when viewed in the deployed site in Chrome although not in the browser. After examination in Chrome developer tools it was discovered that the semantic container `section` was causing the override to `display: block`. When section was replaced by `div` the problem was removed. `div` was then replaced by aside as a more appropriate semantic description for the modal and this also worked perfectly.
+2. It was discovered in testing that clicking on the answer box sometimes produced no response in colour change. This was at first thought to be a 'laggy' response. However on closer examination through Chrome Developer tools the answer text was found to be smaller than the width of the container in many cases resulting in the click having to be on the exact text to produce a response. This was corrected by assigning a `width: 100%` to the text content.
 3. In the final testing stages it was observed that when hovering over the play again button and text in the modal the cursor did not change to a pointer. Initial examination of the css code highlighted an issue with class and id assignments. However these corrections resulted in the function to restart the game only working for the icon and not the text. One solution was to duplicate the onclick function for the text worked but this resulted in cumbersome javascript. The final cleaner solution was to apply a query selector to both elements and then loop through this array and apply an eventlistener for the click to both.
 
 ### Unfixed Bugs
