@@ -249,7 +249,18 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 
 ![alt-text](documentation/css_validation.png)
 
-* [JS Hint](https://jshint.com/) was used to check the two javascript files. The only issue is "one unused variable" which refers to the variable `questions` which is declared in the separate quiz questions JavaScript file.
+* [JS Hint](https://jshint.com/) was used to check the two javascript files. No errors were found and the following metrics were returned:
+
+  * There are 11 functions in this file
+  * Function with the largest signature takes 1 argument
+  * Largest function has 15 statements in it, while the median is 2
+  * The most complex funtion has a cyclomatic complexity value of 5 while the median is 2
+
+
+![alt-text](documentation/jshint_result.png)
+
+
+The only issue is "one unused variable" which refers to the variable `questions` which is declared in the separate quiz questions JavaScript file.
 
 ![alt-text](documentation/jshint_undef.png)
 
