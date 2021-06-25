@@ -276,13 +276,13 @@ The website was tested primarily on Chrome through the design phase. Additional 
 
 ![alt-text](documentation/safari.png)
 
-However performance was poor on Internet Explorer:
+However, performance was poor on Internet Explorer:
 
 ![alt-text](documentation/inex.png)
 ![alt-text](documentation/inex2.png)
 
 
-The website was tested on numerous sized screens including Iphones 8 and X, Moto G8 plus, 15" laptop, 24" screen and Ipad and was found to respond as expected to all sizes.
+The website was tested on numerous sized screens including iPhones 8 and X, Moto G8 plus, 15" laptop, 24" screen and iPad and was found to respond as expected to all sizes.
 Chrome developer tools were used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly. Final testing was done on physical devices as they are the most reliable test.
 
 ### User Stories Testing
