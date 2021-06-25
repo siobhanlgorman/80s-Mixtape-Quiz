@@ -26,8 +26,10 @@
     + [Bugs](#bugs)
     + [Unfixed Bugs](#unfixed-bugs)
   * [Deployment](#deployment)
-  * [Cloning the repository](#cloning-the-repository)
-  * [Credits](#credits)
+  * [Forking and Cloning the repository](#forking-and-cloning-the-repository)
+    + [Forking](#forking)
+    + [Making a Local Clone](#making-a-local-clone)
+    * [Credits](#credits)
     + [Content](#content)
     + [Code](#code)
     + [Media](#media)
@@ -404,14 +406,15 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 The link to the live website is here:
 [80s-Mixtape-Quiz](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/index.html)
 
-## Forking the repository 
+## Forking and cloning the repository 
+### Forking
 In order to fork the repository to make a copy the steps are:
 1. Log into GitHub and locate the repository for [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz)
 2. At the top of the repository above settings locate the 'Fork' button
 3. There is now a copy of the repository in the Github account
 
 
-## Making a local clone
+### Making a local clone
 1. On Github navigate to the main page of the repository
 2. Above the list of files click the dropdown code menu
 3. Select the https option and copy the link 
