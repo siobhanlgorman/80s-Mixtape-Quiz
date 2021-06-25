@@ -47,7 +47,11 @@ The quiz targets people of all ages who enjoy quizzes and are specifically inter
 
 
 ### Strategy 
-The purpose of this online quiz is to entertain people who like 80s music. The quiz should be easy for the user to navigate across the different pages and return to the homw page or restart the quiz. It should initially be a simple design to which features can be added as popularity grows.  
+The purpose of this online quiz is to provide an entertaining online quiz for people of all ages who like 80s music. 
+
+The quiz should be easy for the user to navigate across the different pages and return to the home page or restart the quiz. 
+
+The application should initially be a simple design with enough interactivity to function and entertain and to which features and question content can easily be added as popularity grows.  
 
 #### Goals
   * to provide an entertaining interactive application
@@ -79,7 +83,7 @@ During this phase of the project design test repositories were created to try ou
 
 ### Structure
 
-The user experience design is clear and simple with features positioned conventionally. There is clear navigation between pages signalling a clear pathway throught he site from the home page to the quiz and back to the home page or the quiz start page at the end of the quiz. The mouse changes to a pointer to indicate clearly where the user can click for an action.
+The user experience design is clear and simple with features positioned conventionally. Navigation items are clearly visible on each page signalling the pathway through the site from the home page through the quiz ending at the modal. From there the user can navigate back to the home page or to the quiz start page. 
 
 Home Page
 * Title: the title of the quiz appears on the home page to announce the topic of the quiz. 
@@ -96,9 +100,9 @@ Modal
 
 ### Skeleton
 
-The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. These icons are still considered universally understood. The navigation icons are prominently displayed on the pages allowing an clear flow through the application from the home page to the quiz page ending on the modal and then returning to either the quiz or the home page. 
+The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. The functions of these icons are still universally understood so will be clear to users. The navigation icons are prominently displayed on the pages allowing an clear flow through the application from the home page to the quiz page ending on the modal and then returning to either the quiz or the home page. 
 
-All test areas are contained in boxes and are centred on the screen for a positive user experience.
+All text areas are contained in boxes and are centred on the screen for a positive user experience.
 
 #### Wireframes
 The initial wireframe designs for this application can be seen here:
@@ -108,16 +112,18 @@ The initial wireframe designs for this application can be seen here:
 ### Surface
 
 * Theme
-The theme of the application is of a mixtape which was popular in the eighties. All of the design reflects this theme. 
+
+The theme of the application is of a mixtape which was popular way to assemble a mixture of recorded music on a cassette tape in the eighties. All of the design reflects this theme. 
 
 * Background Image
+
 The background image is of attractive brightly coloured cassette tapes to reflect both the cassette tape theme and the colours popular in this decade.
 
 * Favicon
 A small image of a cassette tape was used as a favicon
 
 * Icons
-The icons used for navigation were chosen to resemble the navigation buttons on a cassette player i.e. the triangle for play to start the quiz and the square for stop to return to the home page.
+The icons used for navigation were chosen to resemble the navigation buttons on a cassette player i.e. the triangle for play to start the quiz and the square for stop to stop the quiz and return to the home page.
 
 * Colours
 The colours of the site were chosen to tone with the eighties colours of the background image, purples and turquoise (particular favourites of the site author in the eighties!). The background colour of the home page, play area and modal were kept pale to provide enough contrast against the text yet still evoke the colour scheme of the era.
@@ -126,9 +132,8 @@ The colours of the site were chosen to tone with the eighties colours of the bac
 The font colour used was charcoal #36454F as it is more gentle on the eye than black.
 
 * Font
-The font selected was Poppins as it has a pleasing rounded look to the user
+The font selected was Poppins as it has a pleasing rounded look to the user, is clear and legible.
 
-* Favicon
 
 ### Features
 ## Existing Features
@@ -157,6 +162,7 @@ Play again
 Stop button - navigates to home page
 ![alt-text](documentation/stop_quiz.png)
 
+The mouse changes to a pointer to indicate clearly where the user can click for an action.
 
 ## Future Features
 
