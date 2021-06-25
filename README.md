@@ -95,9 +95,10 @@ Modal
 * The modal offers a choice of actions to the user: end the quiz and return to the home page or restart the quiz.
 
 ### Skeleton
-how should the imfo be implemented and how will user navigate through information and features priority and positioning
 
 The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. These icons are still considered universally understood. The navigation icons are prominently displayed on the pages allowing an clear flow through the application from the home page to the quiz page ending on the modal and then returning to either the quiz or the home page. 
+
+All test areas are contained in boxes and are centred on the screen for a positive user experience.
 
 #### Wireframes
 The initial wireframe designs for this application can be seen here:
