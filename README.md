@@ -69,16 +69,17 @@ As the site owner I want to:
 As a general user I want to:
 1. play a fun quiz
 2. navigate easily around the application
-3. easily see what question number I am on
-4. answer challenging questions on the topic
-5. easily see if my answer is right or wrong
+3. clearly see what question number I am on
+4. answer reasonably challenging questions on the topic
+5. see immediately if my answer is right or wrong
+6. clearly see my accumulating score
 6. view my final score
 7. easily restart the game after I finish
 8. be rated on my knowledge of the subject
 9. be able to use the application on different sized screens
 
 As a new user I want to 
-* easily see what the quiz topic is
+* easily identify what the quiz topic is
 
 During this phase of the project design test repositories were created to try out visuals and initial features before establishing the final respository.
 
