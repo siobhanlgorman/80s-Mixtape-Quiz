@@ -140,7 +140,7 @@ The icons used for navigation were chosen to resemble the navigation buttons on 
 
 * Colours
 
-The colours of the site were chosen to tone with the eighties colours of the background image, purples and turquoise (particular favourites of the site author in the eighties!). The background colour of the home page, play area and modal were kept pale to provide enough contrast against the text yet still evoke the colour scheme of the era.
+The colours of the site were chosen to tone with the eighties colours of the background image, purples rgb(128, 0, 128) and rgba(128, 0, 128, 0.5), pink #ffc0cb, and turquoise #73D9FF (particular favourites of the site author in the eighties!). The background colour of the home page, play area and modal were kept pale to provide enough contrast against the text yet still evoke the colour scheme of the era.
 
 * Font Colour
 
@@ -231,7 +231,7 @@ Git was used for version control.
 
 [Picresize](https://picresize.com) and [Squoosh](https://squoosh.app/) were used to resize the photo used for the background
 
-For the 80s colours palette - purple rgb(128, 0, 128) rgba(128, 0, 128, 0.5), pink #ffc0cb, and turquoise #73D9FF tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
+For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
 
 * [HTML Validator](https://validator.w3.org/)
 * [CSS Validator](https://validator.w3.org/)
