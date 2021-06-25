@@ -14,8 +14,7 @@ let questions = [{
     option3: "'People are People' by Depeche Mode",
     option4: "'It's A Sin' by Pet Shop Boys",
     answer: "4",
-    },
-    
+    },    
     {
     question: "Which of these is Not a Cyndi Lauper song?",
     option1: "True Colours",
@@ -31,8 +30,7 @@ let questions = [{
     option3: "'Modern Love' by David Bowie",
     option4: "'Our House' by Madness",
     answer: "3"
-    },
-    
+    },    
     {
     question: "Who sings 'Sunshine on Leith?",
     option1: "Queen",
@@ -48,8 +46,7 @@ let questions = [{
     option3: "The Greatest Love Of All",
     option4: "How Will I Know",
     answer: "3"
-    },
-    
+    },    
     {
     question: "Which all-girl group had a Manic Monday?",
     option1: "Bananarama",
@@ -66,7 +63,6 @@ let questions = [{
     option4: "'Obsession' by Animotion",
     answer: "3"
     },
-    
     {
     question: "How old were the George Michael and Andrew Ridgley when they wrote 'Careless Whisper'? ",
     option1: "17",
@@ -91,7 +87,6 @@ let questions = [{
     option4: "I Just Died in Your Arms Tonight' by Cutting Crew",
     answer: "3"
     },
-    
     {
     question: "How many members were there in the Thompson Twins (1982 -1986)?",
     option1: "2",
@@ -116,7 +111,6 @@ let questions = [{
     option4: "'Labelled With Love' by Squeeze",
     answer: "4"
     },
-    
     {
     question: "What was the name of Band Aid's charity single?",
     option1: "Feed the World",
