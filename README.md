@@ -263,10 +263,11 @@ The website was tested primarily on Chrome through the design phase. Additional 
 
 * Safari: 
 
+However performance was poor on Internet Explorer:
 
+![alt-text](documentation/inex.png)
+![alt-text](documentation/inex2.png)
 
-
-However performance was poor on Internet Explorer
 
 The website was tested on numerous sized screens including Iphones 8 and X, Moto G8 plus, 15" laptop, 24" screen and Ipad and was found to respond as expected to all sizes.
 Chrome developer tools were used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly. Final testing was done on physical devices as they are the most reliable test.
@@ -395,10 +396,10 @@ The link to the live website is here:
 ## Cloning the repository to run locally
 1. On Github navigate to the main page of the repository
 2. Above the list of files click the dropdown code menu
-3. Select the https option and copy the link
+3. Select the https option and copy the link 
 4. Open the GitPod Bash terminal
 5. Change the current working directory to the desired destination location
-6. Type the Git clone command and then paste the copied URL
+6. Type the git clone command and paste the copied URL https://github.com/siobhanlgorman/80s-Mixtape-Quiz.git
 7. Press enter to create the local clone
 
 
