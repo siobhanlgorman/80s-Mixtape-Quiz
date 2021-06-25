@@ -420,7 +420,7 @@ In order to fork the repository to make a copy the steps are:
 3. Select the https option and copy the link 
 4. Open the GitPod Bash terminal
 5. Change the current working directory to the desired destination location
-6. Type the git clone command and paste the copied URL:  https://github.com/siobhanlgorman/80s-Mixtape-Quiz.git
+6. Type the git clone command with the copied URL: git clone https://github.com/siobhanlgorman/80s-Mixtape-Quiz.git
 7. Press enter to create the local clone
 
 
