@@ -260,7 +260,7 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 ![alt-text](documentation/jshint_result.png)
 
 
-The only issue is "one unused variable" which refers to the variable `questions` which is declared in the separate quiz questions JavaScript file.
+The only issue is "one undefined variable" which refers to the variable `questions` which is declared in the separate quiz questions JavaScript file.
 
 
 * Chrome Developer Tools was used in responsiveness design and extensively in debugging javascript functions. 
