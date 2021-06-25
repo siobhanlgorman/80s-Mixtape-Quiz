@@ -35,7 +35,10 @@
 
 [The live website can be viewed here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
 ## Introduction
-The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their final score. The project goal is to provide entertainment through a fun interactive music quiz. I picked eighties music because it's an era that I like myself and also it has undergone a revival and so would be entertaining to different age groups.
+The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their final score. 
+
+## Goal
+The goal is to create an entertaining web-based music trivia quiz. I picked eighties music because it's an era that I like myself and also it has undergone a revival and so will interest a range of age groups. 
 
 ## User Experience (UX)
 ### Target Audience
