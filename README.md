@@ -145,13 +145,13 @@ The font selected was [Poppins](https://fonts.google.com/specimen/Poppins) as it
 ### Features
 ## Existing Features
 
-* Home page
+* [Home page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/index.html)
 
 Play button to navigate to quiz page
 
 ![alt-text](documentation/play_button.png)
 
-* Quiz page
+* [Quiz page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/quiz.html)
 
 Score Counter
 
