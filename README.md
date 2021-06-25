@@ -396,25 +396,33 @@ There are no known outstanding bugs.
 The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 1. Log in to [Github](https://github.com/)
 2. Navigate to [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz) in the list of repositories
-3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab or copy this link:
-* 
+3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab
+3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab
 4. In Settings scroll down to [GitHub pages](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings/pages) which opens in a new page.
 5. From the source section drop-down menu, select the Master Branch
 6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
 The link to the live website is here:
 [80s-Mixtape-Quiz](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/index.html)
 
-## Cloning the repository to run locally
+## Forking the repository 
+In order to fork the repository to make a copy the steps are:
+1. Log into GitHub and locate the repository for [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz)
+2. At the top of the repository above settings locate the 'Fork' button
+3. There is now a copy of the repository in the Github account
+
+
+## Making a local clone
 1. On Github navigate to the main page of the repository
 2. Above the list of files click the dropdown code menu
 3. Select the https option and copy the link 
 4. Open the GitPod Bash terminal
 5. Change the current working directory to the desired destination location
-6. Type the git clone command and paste the copied URL https://github.com/siobhanlgorman/80s-Mixtape-Quiz.git
+6. Type the git clone command and paste the copied URL:  https://github.com/siobhanlgorman/80s-Mixtape-Quiz.git
 7. Press enter to create the local clone
 
 
 ## Credits
+
 ### Content
 Most questions were written by this author with inspiration and some questions adapted from the following sites:
 
@@ -435,6 +443,7 @@ The following references were used as learning resources
 * [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 * [Timeout function](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout)
 * [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0) and [how to make CSS/JS modals](https://www.w3schools.com/howto/howto_css_modals.asp)
+* [How to add event listeners to multiple elements](https://reactgo.com/add-event-listener-multiple-elements-javascript/)
 
 The following were used as references to check syntax for coding and for general queries:
 
