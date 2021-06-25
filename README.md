@@ -420,7 +420,7 @@ The following bugs were found and squashed:
 There are no known outstanding bugs.
 ## Deployment
 The site was deployed to GitHub pages. The steps taken to deploy are as follows:
-1. Log in to [Github](https://github.com/)
+1. Log in to [GitHub](https://github.com/)
 2. Navigate to [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz) in the list of repositories
 3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab
 3. In the GitHub repository, navigate to the [Settings](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/settings) tab
@@ -433,14 +433,14 @@ The link to the live website is here:
 ## Forking and cloning the repository 
 ### Forking
 In order to fork the repository to make a copy the steps are:
-1. Log into GitHub and locate the repository for [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz)
+1. Log into [GitHub](https://github.com/) and locate the repository for [siobhanlgorman/80s-Mixtape-Quiz](https://github.com/siobhanlgorman/80s-Mixtape-Quiz)
 2. At the top of the repository above settings locate the 'Fork' button
 3. There is now a copy of the repository in the Github account
 
 
 ### Making a local clone
 
-1. On Github navigate to the main page of the repository
+1. On [GitHub](https://github.com/) navigate to the main page of the repository
 2. Above the list of files click the dropdown code menu
 3. Select the https option and copy the link 
 4. Open the GitPod Bash terminal
