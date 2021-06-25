@@ -7,7 +7,6 @@
   * [User Experience (UX)](#user-experience--ux-)
     + [Target Audience](#target-audience)
     + [Strategy](#strategy)
-      - [Goals](#goals)
     + [Scope](#scope)
       - [User Stories](#user-stories)
     + [Structure](#structure)
@@ -53,12 +52,14 @@ The quiz should be easy for the user to navigate across the different pages and 
 
 The application should initially be a simple design with enough interactivity to function and entertain and to which features and question content can easily be added as popularity grows.  
 
-#### Goals
-  * to provide an entertaining interactive application
-  * questions can be easily updated
 
 ### Scope
-The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. The project is to be a simple functioning online quiz game with randomly generated multiple choice questions. The score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially the question pool will be small but sufficient for the user to enjoy the experience. A fun feedback message will be generated to rate the user's final score.
+The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future. 
+
+The project is to be a simple functioning online quiz game with randomly generated multiple choice questions. The score will accumulate up to a specified maximum which can be adjusted according to the number of questions available. Initially this will be set to six as the test pool of questions is relatively small but sufficient for the user to enjoy the experience. 
+
+A fun feedback message will be generated to rate the user's final score.
+
 The purpose of the site will be clear from the landing page and will be visually attractive to the user. The site will be easy to navigate and fully responsive to all sized screens. 
 
 #### User Stories
