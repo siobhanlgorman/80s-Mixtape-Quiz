@@ -12,7 +12,7 @@
       - [User Stories](#user-stories)
     + [Structure](#structure)
     + [Skeleton](#skeleton)
-      - [Wireframes]
+      - [Wireframes](#wireframes)
     + [Surface](#surface)
     + [Features](#features)
       - [Existing Features](#existing-features)
@@ -97,23 +97,23 @@ Modal
 ### Skeleton
 how should the imfo be implemented and how will user navigate through information and features priority and positioning
 
-The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. These icons are still considered universally understood.
+The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. These icons are still considered universally understood. The navigation icons are prominently displayed on the pages allowing an clear flow through the application from the home page to the quiz page ending on the modal and then returning to either the quiz or the home page. 
 
 #### Wireframes
-The wireframe design for this application are here:
+The initial wireframe designs for this application can be seen here:
 
 [Wireframes](https://github.com/siobhanlgorman/80s-Mixtape-Quiz/tree/master/wireframes)
 
 ### Surface
 
 * Theme
-The theme of the application is of a mixtape which was popular in the eighties. 
+The theme of the application is of a mixtape which was popular in the eighties. All of the design reflects this theme. 
 
 * Background Image
 The background image is of attractive brightly coloured cassette tapes to reflect both the cassette tape theme and the colours popular in this decade.
 
 * Favicon
-A small image of a cassette tape was used as a favicon in keeping with the overall theme
+A small image of a cassette tape was used as a favicon
 
 * Icons
 The icons used for navigation were chosen to resemble the navigation buttons on a cassette player i.e. the triangle for play to start the quiz and the square for stop to return to the home page.
