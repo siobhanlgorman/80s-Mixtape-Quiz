@@ -214,7 +214,7 @@ Future features to add to improve the user interface would be:
 ## Languages Used
 * HTML (Hypertext Markup Language) was used to design the basic website.
 * CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
-* Javascript was used to provide interactivity to the application.
+* JavaScript was used to provide interactivity to the application.
 
 
 ## Technologies Used
