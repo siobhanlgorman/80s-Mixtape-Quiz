@@ -433,6 +433,7 @@ In order to fork the repository to make a copy the steps are:
 
 
 ### Making a local clone
+
 1. On Github navigate to the main page of the repository
 2. Above the list of files click the dropdown code menu
 3. Select the https option and copy the link 
