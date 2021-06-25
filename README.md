@@ -33,7 +33,7 @@
     + [Media](#media)
 
 
-[The live website is here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
+[The live website can be viewed here](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/)
 ## Introduction
 The Mixtape quiz is a fun interactive quiz for people who love the music of the eighties. Users answer multiple choice questions and are rated on their final score. The project goal is to provide entertainment through a fun interactive music quiz. I picked eighties music because it's an era that I like myself and also it has undergone a revival and so would be entertaining to different age groups.
 
@@ -194,7 +194,7 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 * [CSS Validator](https://validator.w3.org/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
 * [JS Hint](https://jshint.com/) was used to check the two javascript files. One unused variable refers to the variable questions which is declared in the quiz questions file.
 * Chrome Developer Tools was used in responsiveness design and extensively in debugging javascript functions. 
-* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning. An apple touch icon and link was also added to fix this issue.No other significant errors were found.
+* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. Lighthouse indicated that the background image was large for the site so this was resized without impacting quality and fixed this warning. An apple touch icon and link was also added to fix this issue. No other significant errors were found. 
 
 ### Responsiveness
 The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found and good performance. However performance was poor on Internet Explorer
