@@ -250,12 +250,23 @@ For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wh
 
 ![alt-text](documentation/lighthouse2.png)
 
-
-
-
-
 ### Responsiveness
-The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found and good performance. However performance was poor on Internet Explorer
+The website was tested primarily on Chrome through the design phase. Additional testing was conducted on Mozilla, Edge and Safari browsers with no problems found and good performance. 
+* Mozilla: 
+
+![alt-text](documentation/mozilla.png)
+
+* Microsoft Edge
+
+![alt-text](documentation/edge.png)
+
+
+* Safari: 
+
+
+
+
+However performance was poor on Internet Explorer
 
 The website was tested on numerous sized screens including Iphones 8 and X, Moto G8 plus, 15" laptop, 24" screen and Ipad and was found to respond as expected to all sizes.
 Chrome developer tools were used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly. Final testing was done on physical devices as they are the most reliable test.
