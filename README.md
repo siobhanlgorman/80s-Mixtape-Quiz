@@ -95,7 +95,7 @@ The user experience design is clear and simple with features positioned conventi
 
 [Quiz Page](https://siobhanlgorman.github.io/80s-Mixtape-Quiz/quiz.html)
 * The question is clearly visible in the middle of the quiz play area with the four answer choices underneath. For the smaller screens the answers display on a single column.
-* Above the question and answer section is the counter section showing the accumulating number of correct answers and the current question number out of the maimum available questions. Also here is a clear button to stop the quiz and return to the home page.
+* Above the question and answer section is the counter section showing the accumulating number of correct answers and the current question number out of the maximum available questions. Also here is a clearly visible button to stop the quiz and return to the home page.
 * When the user selects the answer the colour of the answer changes to red or green to indicate correct or incorrect before displaying the next question.
 
 Modal
@@ -104,7 +104,7 @@ Modal
 
 ### Skeleton
 
-The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. The functions of these icons are still universally understood so will be clear to users. The navigation icons are prominently displayed on the pages allowing an clear flow through the application from the home page to the quiz page ending on the modal and then returning to either the quiz or the home page. 
+The site is designed around the theme of a mixtape, popular in the eighties. The navigation icons are therefore designed to reflect the buttons on a cassette player i.e. the play triangle and the square stop buttons. The functions of these icons are still universally understood so will be intelligible to users. The navigation icons are prominently displayed on the pages allowing an clear flow through the application from the home page to the quiz page ending on the modal and then returning to either the quiz or the home page. 
 
 All text areas are contained in boxes and are centred on the screen for a positive user experience.
 
@@ -132,7 +132,7 @@ The background image is of attractive brightly coloured cassette tapes to reflec
 
 * Favicon
 
-A small image of a cassette tape was used as a favicon
+A small image of a cassette tape was used as a favicon in keeping with the cassette theme.
 
 * Icons
 
