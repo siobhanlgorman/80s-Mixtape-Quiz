@@ -93,7 +93,7 @@ Home Page
 
 Quiz Page
 * The question is clearly visible in the middle of the quiz play area with the four answer choices underneath. For the smaller screens the answers display on a single column.
-* Above the question?answers is the counter section showing the accumulating number of correct answers and the current question number out of the maimum available questions. Also here is a clear button to stop the quiz and return to the home page.
+* Above the question and answer section is the counter section showing the accumulating number of correct answers and the current question number out of the maimum available questions. Also here is a clear button to stop the quiz and return to the home page.
 * When the user selects the answer the colour of the answer changes to red or green to indicate correct or incorrect before displaying the next question.
 
 Modal
@@ -122,18 +122,23 @@ The theme of the application is of a mixtape which was popular way to assemble a
 The background image is of attractive brightly coloured cassette tapes to reflect both the cassette tape theme and the colours popular in this decade.
 
 * Favicon
+
 A small image of a cassette tape was used as a favicon
 
 * Icons
+
 The icons used for navigation were chosen to resemble the navigation buttons on a cassette player i.e. the triangle for play to start the quiz and the square for stop to stop the quiz and return to the home page.
 
 * Colours
+
 The colours of the site were chosen to tone with the eighties colours of the background image, purples and turquoise (particular favourites of the site author in the eighties!). The background colour of the home page, play area and modal were kept pale to provide enough contrast against the text yet still evoke the colour scheme of the era.
 
 * Font Colour
+
 The font colour used was charcoal #36454F as it is more gentle on the eye than black.
 
 * Font
+
 The font selected was Poppins as it has a pleasing rounded look to the user, is clear and legible.
 
 
