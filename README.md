@@ -325,14 +325,15 @@ The link to the live website is here:
 
 ## Credits
 ### Content
-Quiz questions adapted from: 
+Most questions were written by this author with inspiration and some questions adapted from the following sites:
+
 * [Zoo](https://www.zoo.com/quiz/can-you-guess-80s-songs-their-opening-lyrics-quiz) 
 * [Cambridge News](https://www.cambridge-news.co.uk/news/uk-world-news/80s-music-quiz-questions-test-18213733)
 * [The Express](https://www.express.co.uk/entertainment/music/1290366/80s-music-quiz-questions-and-answers)
 * [Smooth Radio](https://www.smoothradio.com/quizzes/1980s-music-trivia-quiz/)
 
 ### Code
-* This tutorial by [James Q Quick - Build A Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ) was followed closely for the intial javascript set up and generation of random questions and answers. It was adapted from James' code to better suit this particular design.
+* This tutorial by [James Q Quick - Build A Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ) was followed closely for the intial javascript set up of random question and answers generation. It was adapted from James' code to better suit this particular design.
 
 The following tutorial was also useful as a guide and is very similar to the above
 * [How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
@@ -343,6 +344,11 @@ The following reference were used as learning resources
 * [Reference on forEach looping syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 * Timeout function https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout
 * Designing a modal: [How to make a modal](https://www.youtube.com/watch?v=6ophW7Ask_0); (https://www.w3schools.com/howto/howto_css_modals.asp)
+
+The following were used as references to check syntax for coding and for general queries:
+
+[w3 schools](https://www.w3schools.com/)
+[stackoverflow](https://stackoverflow.com/)
 
 ### Media
 * Images
