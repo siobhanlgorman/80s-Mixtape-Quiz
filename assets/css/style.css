@@ -38,7 +38,7 @@ main {
     justify-content: center;
     align-items: center;
     background: url('../images/cassette-5986249_1280.jpg') no-repeat center center;
-    background-color: purple;
+    background-color: rgb(128, 0, 128);
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ main {
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    background-color: pink;
+    background-color: #ffc0cb;
 }
 
 /* style home page link to quiz page */

@@ -207,7 +207,7 @@ Future features to add to improve the user interface would be:
 * the types of questions could be broadened to be target a wider variety of users with as 'the Eighties' cover a wide range of music genres
 * The ability to save the user name and high scores so the user could return to the quiz to beat their own scores. 
 * Currently the questions are all text-based but expanding to include visual questions with pictures would increase enjoyment for the user.
-* An audio sound on completion of the game would also enhance experience.
+* An audio sound on completion of the game would also enhance user experience.
 * Given sufficient questions, a list of questions answered correctly and incorrectly could be generated at the end of the quiz.
 * A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
@@ -231,7 +231,7 @@ Git was used for version control.
 
 [Picresize](https://picresize.com) and [Squoosh](https://squoosh.app/) were used to resize the photo used for the background
 
-For the 80s colours palette - purple, pink, and turquoise tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
+For the 80s colours palette - purple rgb(128, 0, 128) rgba(128, 0, 128, 0.5), pink #ffc0cb, and turquoise #73D9FF tones [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was used.
 
 * [HTML Validator](https://validator.w3.org/)
 * [CSS Validator](https://validator.w3.org/)
