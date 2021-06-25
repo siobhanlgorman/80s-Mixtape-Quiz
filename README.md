@@ -222,22 +222,22 @@ Each user story was tested as follows:
 As the site owner I want to:
 * create an entertaining interactive quiz on the topic of eighties music trivia
 
-The quiz was tested by a variety of friends and family who appreciated the look of the quiz and enjoyed playing it. They found it to be fun and would like more questions to be added to play more times.
+The quiz was tested by a variety of friends and family who complimented the look of the quiz and enjoyed playing answering the questions. They found it to be fun and would enjoy playing it again.
 
 ![alt-text](documentation/home_page.png)
 
 As a general user I want to:
-* play a fun quiz
-The welcome page with its brightly coloured image of cassettes inspires a positive emotional reponse in users and they anticipate a fun quiz. The title is prominent and clearly shows the topic of the quiz. THe theme is comprehensively supported by the image and colours. The large play call to action button invites users to start the quiz. 
+1. play a fun quiz
+The welcome page with its brightly coloured image of cassettes inspires a positive emotional reponse in users and they anticipate a fun quiz. The title is prominent and clearly shows the topic of the quiz. The theme is comprehensively supported by the image and colours. The large play call to action button invites users to start the quiz. 
 
 ![alt-text](documentation/home_mob.png)
 
-* navigate easily around the application
+2. navigate easily around the application
 Navigation buttons are clearly displayed on each page. The icons are styled in keeping with the cassette theme and are minimal which keeps the user flow through the site clear. On the home page there is one call to action button prominently displayed which links to the quiz page and invites the user to start the quiz.
 
 ![alt-text](documentation/play_button.png)
 
-At the top of the quiz page there is a button to stop the quiz and return to the home page.
+At the top of the quiz play area there is a button to stop the quiz and return to the home page.
 ![alt-text](documentation/stop_quiz_button.png)
 
 On the modal page there are two prominent navigation buttons offering the user a choice of playing again or ending and returning to the home page.
@@ -245,39 +245,48 @@ On the modal page there are two prominent navigation buttons offering the user a
 ![alt-text](documentation/stop_quiz.png)
 
 
-* easily see what question number I am on
+3. clearly see what question number I am on
 
 At the top of the quiz play area there is a question number section showing the current question number and the total to be asked.
 ![alt-text](documentation/question_counter.png)
 
-* answer challenging questions on the topic
+4. answer reasonably challenging questions on the topic
 
 The question collection features a variety of questions which test a wide range of musical knowledge from different genres of the eighties.
 ![alt-text](documentation/quiz_question.png)
 
-* easily see if my answer is right or wrong
+5. see immediately if my answer is right or wrong
 
 The answer box turns red if the user clicks a wrong answer and green if it is correct.
 
 ![alt-text](documentation/red_answer.png)
 ![alt-text](documentation/small_green.png)
 
-* view my final score
+6. see my score accumulating
+
+At the top of the quiz play area is a box indicating the current score and the maximum total possible
+
+![alt-text](documentation/score_counter.png)
+
+
+7. view my final score
 At the end of the quiz a modal pops up which displays the user's final score
 ![alt-text](documentation/final_score.png)
 
-* easily restart the game after I finish
+8. easily restart the game after I finish
 
 The modal offers the user the opportunity to restart the quiz
 ![alt-text](documentation/modal_mobile.png)
 
 
-* be rated on my knowledge of the subject
+9. be rated on my knowledge of the subject
+
 When the quiz ends the modal pops up and displays a fun message rating the user's knowledge on the topic according to their final score.
 
 ![alt-text](documentation/fun_message.png)
 
-* be able to use the application on different sized screens
+10.  be able to use the application on different sized screens
+
 The image responds to different screen sizes with the game play area and modal in a central position and the answer choices moving from 2 rows on a large and medium screen to one column on smaller screens.
 
 ![alt-text](documentation/quiz_tab.png)
