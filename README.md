@@ -387,8 +387,13 @@ The quiz title and topic are clearly displayed on the landing page
 
 The quiz was tested by users of various ages. Feedback was overall positive from users. The following constructive feedback was used to make improvements. 
 
-* One user reported that the reponse to the user click on the answer was'laggy' so the timeout delay for the removal of colour change was reduced from 1.5 seconds to 1 second.
+* One user reported that the reponse to the user click on the answer was 'laggy' so the `timeout` delay for the removal of colour change was reduced from 1.5 seconds to 1 second.
 * An x link with a function to close the modal was removed for the final version it became superflous after a stop quiz and play again buttons were added and no other option is available to close the modal.
+
+The following functioned as intended:
+* Questions and corresponding answers generated correctly in their boxes
+* Questions and corresponding answers generated randomly and did not repeat within each game of six questions.
+* the colours change to the colour corresponding to the correct/incorrect answer selected by the user.
 
 The following links were tested and functioned as expected:
 
@@ -399,8 +404,9 @@ The following links were tested and functioned as expected:
 
 The following were also tested and function correctly:
 
-* The modal page pops up at the end of the quiz as expected, correctly displaying the final score and the message corresponding to the final score. 
-* the colours change to the colour corresponding to the answer selected by the user.
+* The modal page pops up at the end of the quiz as expected
+* The correct user final score displays
+* The final message displays the correct message corresponding to the final score. 
 
 
 ### Bugs
